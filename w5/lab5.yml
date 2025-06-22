@@ -1,0 +1,3769 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /workspace
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 80
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 25
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 148
+    content: "\e[?2004h2ab1a0b95ba2:/workspace# "
+  - delay: 1408
+    content: g
+  - delay: 98
+    content: i
+  - delay: 117
+    content: t
+  - delay: 110
+    content: ' '
+  - delay: 298
+    content: c
+  - delay: 91
+    content: l
+  - delay: 186
+    content: o
+  - delay: 118
+    content: 'n'
+  - delay: 916
+    content: e
+  - delay: 189
+    content: ' '
+  - delay: 590
+    content: "\e[7mgit@github.com:sh0416/glso0215-lab.git\e[27m"
+  - delay: 860
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Cgit@github.com:sh0416/glso0215-lab.git\r\n\e[?2004l\r"
+  - delay: 8
+    content: "fatal: destination path 'glso0215-lab' already exists and is not an empty directory.\r\n\e[?2004h2ab1a0b95ba2:/workspace# "
+  - delay: 2793
+    content: r
+  - delay: 109
+    content: m
+  - delay: 117
+    content: ' '
+  - delay: 163
+    content: '-'
+  - delay: 154
+    content: r
+  - delay: 205
+    content: f
+  - delay: 109
+    content: ' '
+  - delay: 157
+    content: "\r\n\e[?2004l\r"
+  - delay: 5
+    content: "\e[?2004h2ab1a0b95ba2:/workspace# "
+  - delay: 1043
+    content: 'rm -rf '
+  - delay: 799
+    content: "\a"
+  - delay: 436
+    content: "\r\n.git/               docker-compose.yml  test.yml\r\nDockerfile          glso0215-lab/       \r\nREADME.md           lab5.yml            \r\n2ab1a0b95ba2:/workspace# rm -rf "
+  - delay: 4225
+    content: g
+  - delay: 280
+    content: lso0215-lab/
+  - delay: 758
+    content: "\r\n\e[?2004l\r"
+  - delay: 30
+    content: "\e[?2004h2ab1a0b95ba2:/workspace# "
+  - delay: 1342
+    content: rm -rf glso0215-lab/
+  - delay: 226
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\e[K"
+  - delay: 387
+    content: "\b\b\b\b\b\b\bgit clone git@github.com:sh0416/glso0215-lab.git"
+  - delay: 660
+    content: "\r\n\e[?2004l\r"
+  - delay: 5
+    content: "Cloning into 'glso0215-lab'...\r\n"
+  - delay: 3390
+    content: "remote: Enumerating objects: 3, done.\e[K\r\nremote: Counting objects:  33% (1/3)\e[K\rremote: Counting objects:  66% (2/3)\e[K\rremote: Counting objects: 100% (3/3)\e[K\rremote: Counting objects: 100% (3/3), done.\e[K\r\nremote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)\e[K\r\n"
+  - delay: 8
+    content: "Receiving objects:  33% (1/3)\rReceiving objects:  66% (2/3)\rReceiving objects: 100% (3/3)\rReceiving objects: 100% (3/3), done.\r\n"
+  - delay: 236
+    content: "\e[?2004h2ab1a0b95ba2:/workspace# "
+  - delay: 425630
+    content: g
+  - delay: 127
+    content: i
+  - delay: 137
+    content: t
+  - delay: 167
+    content: ' '
+  - delay: 291
+    content: l
+  - delay: 253
+    content: o
+  - delay: 222
+    content: g
+  - delay: 1365
+    content: "\r\n\e[?2004l\r"
+  - delay: 33
+    content: "\e[0;0H\e[Kcommit d3370472048ecac7ea24ac7d64603bf5040b9afc (HEAD -> master, origin/master, \r\n\e[Korigin/HEAD)\r\n\e[KAuthor: Seonghyeon Lee <seonghyeon.drew@gmail.com>\r\n\e[KDate:   Mon Apr 7 08:00:36 2025 +0900\r\n\e[K\r\n\e[K    Fix bug\r\n\e[K\r\n\e[Kcommit bbe92621e6473c8eecc185d317ec79b5a28015fb\r\n\e[KAuthor: Seonghyeon Lee <seonghyeon.drew@gmail.com>\r\n\e[KDate:   Mon Mar 31 17:09:53 2025 +0900\r\n\e[K\r\n\e[K    Add mount git config file & Add remove container after finishing lab\r\n\e[K\r\n\e[Kcommit 4bcd749f95b5e56008f1c23d5009d3f254e9f3bd\r\n\e[KAuthor: Seonghyeon Lee <seonghyeon.drew@gmail.com>\r\n\e[KDate:   Mon Mar 31 07:24:36 2025 +0000\r\n\e[K\r\n\e[K    Fix Typo & Add TODO\r\n\e[K\r\n\e[Kcommit b9f7f9a22120236573789f5d9bc1f7f3d5ee8dbc\r\n\e[KAuthor: Seonghyeon Lee <seonghyeon.drew@gmail.com>\r\n\e[KDate:   Mon Mar 31 16:21:00 2025 +0900\r\n\e[K\r\n\e[K    First commit\r\n\e[25;0H\e[K\e[7mstandard input\e[m"
+  - delay: 134060
+    content: "\e[0;0H\e[Korigin/HEAD)\r\n\e[KAuthor: Seonghyeon Lee <seonghyeon.drew@gmail.com>\r\n\e[KDate:   Mon Apr 7 08:00:36 2025 +0900\r\n\e[K\r\n\e[K    Fix bug\r\n\e[K\r\n\e[Kcommit bbe92621e6473c8eecc185d317ec79b5a28015fb\r\n\e[KAuthor: Seonghyeon Lee <seonghyeon.drew@gmail.com>\r\n\e[KDate:   Mon Mar 31 17:09:53 2025 +0900\r\n\e[K\r\n\e[K    Add mount git config file & Add remove container after finishing lab\r\n\e[K\r\n\e[Kcommit 4bcd749f95b5e56008f1c23d5009d3f254e9f3bd\r\n\e[KAuthor: Seonghyeon Lee <seonghyeon.drew@gmail.com>\r\n\e[KDate:   Mon Mar 31 07:24:36 2025 +0000\r\n\e[K\r\n\e[K    Fix Typo & Add TODO\r\n\e[K\r\n\e[Kcommit b9f7f9a22120236573789f5d9bc1f7f3d5ee8dbc\r\n\e[KAuthor: Seonghyeon Lee <seonghyeon.drew@gmail.com>\r\n\e[KDate:   Mon Mar 31 16:21:00 2025 +0900\r\n\e[K\r\n\e[K    First commit\r\n\e[K\r\n\e[25;0H\e[K\e[7m(END)\e[m"
+  - delay: 755
+    content: "\e[0;0H\e[KAuthor: Seonghyeon Lee <seonghyeon.drew@gmail.com>\r\n\e[KDate:   Mon Apr 7 08:00:36 2025 +0900\r\n\e[K\r\n\e[K    Fix bug\r\n\e[K\r\n\e[Kcommit bbe92621e6473c8eecc185d317ec79b5a28015fb\r\n\e[KAuthor: Seonghyeon Lee <seonghyeon.drew@gmail.com>\r\n\e[KDate:   Mon Mar 31 17:09:53 2025 +0900\r\n\e[K\r\n\e[K    Add mount git config file & Add remove container after finishing lab\r\n\e[K\r\n\e[Kcommit 4bcd749f95b5e56008f1c23d5009d3f254e9f3bd\r\n\e[KAuthor: Seonghyeon Lee <seonghyeon.drew@gmail.com>\r\n\e[KDate:   Mon Mar 31 07:24:36 2025 +0000\r\n\e[K\r\n\e[K    Fix Typo & Add TODO\r\n\e[K\r\n\e[Kcommit b9f7f9a22120236573789f5d9bc1f7f3d5ee8dbc\r\n\e[KAuthor: Seonghyeon Lee <seonghyeon.drew@gmail.com>\r\n\e[KDate:   Mon Mar 31 16:21:00 2025 +0900\r\n\e[K\r\n\e[K    First commit\r\n\e[K\r\n\e[K~\r\n\e[25;0H\e[K\e[7m(END)\e[m"
+  - delay: 391
+    content: "\e[0;0H\e[KAuthor: Seonghyeon Lee <seonghyeon.drew@gmail.com>\r\n\e[KDate:   Mon Apr 7 08:00:36 2025 +0900\r\n\e[K\r\n\e[K    Fix bug\r\n\e[K\r\n\e[Kcommit bbe92621e6473c8eecc185d317ec79b5a28015fb\r\n\e[KAuthor: Seonghyeon Lee <seonghyeon.drew@gmail.com>\r\n\e[KDate:   Mon Mar 31 17:09:53 2025 +0900\r\n\e[K\r\n\e[K    Add mount git config file & Add remove container after finishing lab\r\n\e[K\r\n\e[Kcommit 4bcd749f95b5e56008f1c23d5009d3f254e9f3bd\r\n\e[KAuthor: Seonghyeon Lee <seonghyeon.drew@gmail.com>\r\n\e[KDate:   Mon Mar 31 07:24:36 2025 +0000\r\n\e[K\r\n\e[K    Fix Typo & Add TODO\r\n\e[K\r\n\e[Kcommit b9f7f9a22120236573789f5d9bc1f7f3d5ee8dbc\r\n\e[KAuthor: Seonghyeon Lee <seonghyeon.drew@gmail.com>\r\n\e[KDate:   Mon Mar 31 16:21:00 2025 +0900\r\n\e[K\r\n\e[K    First commit\r\n\e[K\r\n\e[K~\r\n\e[25;0H\e[K\e[7m(END)\e[m"
+  - delay: 460
+    content: "\e[0;0H\e[KAuthor: Seonghyeon Lee <seonghyeon.drew@gmail.com>\r\n\e[KDate:   Mon Apr 7 08:00:36 2025 +0900\r\n\e[K\r\n\e[K    Fix bug\r\n\e[K\r\n\e[Kcommit bbe92621e6473c8eecc185d317ec79b5a28015fb\r\n\e[KAuthor: Seonghyeon Lee <seonghyeon.drew@gmail.com>\r\n\e[KDate:   Mon Mar 31 17:09:53 2025 +0900\r\n\e[K\r\n\e[K    Add mount git config file & Add remove container after finishing lab\r\n\e[K\r\n\e[Kcommit 4bcd749f95b5e56008f1c23d5009d3f254e9f3bd\r\n\e[KAuthor: Seonghyeon Lee <seonghyeon.drew@gmail.com>\r\n\e[KDate:   Mon Mar 31 07:24:36 2025 +0000\r\n\e[K\r\n\e[K    Fix Typo & Add TODO\r\n\e[K\r\n\e[Kcommit b9f7f9a22120236573789f5d9bc1f7f3d5ee8dbc\r\n\e[KAuthor: Seonghyeon Lee <seonghyeon.drew@gmail.com>\r\n\e[KDate:   Mon Mar 31 16:21:00 2025 +0900\r\n\e[K\r\n\e[K    First commit\r\n\e[K\r\n\e[K~\r\n\e[25;0H\e[K\e[7m(END)\e[m"
+  - delay: 857
+    content: "\e[25;0H\e[K"
+  - delay: 7
+    content: "\e[?2004h2ab1a0b95ba2:/workspace# "
+  - delay: 315695
+    content: "\a"
+  - delay: 492
+    content: "\a"
+  - delay: 83
+    content: "\a"
+  - delay: 83
+    content: "\a"
+  - delay: 89
+    content: "\a"
+  - delay: 79
+    content: "\a"
+  - delay: 85
+    content: "\a"
+  - delay: 15941
+    content: l
+  - delay: 114
+    content: s
+  - delay: 303
+    content: "\r\n\e[?2004l\r"
+  - delay: 12
+    content: "\e[0;0mDockerfile\e[m          \e[0;0mdocker-compose.yml\e[m  \e[0;0mlab5.yml\e[m\r\n\e[0;0mREADME.md\e[m           \e[1;34mglso0215-lab\e[m        \e[0;0mtest.yml\e[m\r\n\e[?2004h2ab1a0b95ba2:/workspace# "
+  - delay: 3966
+    content: c
+  - delay: 206
+    content: d
+  - delay: 134
+    content: ' '
+  - delay: 437
+    content: g
+  - delay: 226
+    content: lso0215-lab/
+  - delay: 920
+    content: "\r\n\e[?2004l\r\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 566
+    content: l
+  - delay: 123
+    content: s
+  - delay: 123
+    content: "\r\n\e[?2004l\r\e[0;0mREADME.md\e[m\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 1546
+    content: g
+  - delay: 137
+    content: i
+  - delay: 65
+    content: t
+  - delay: 141
+    content: ' '
+  - delay: 161
+    content: l
+  - delay: 184
+    content: o
+  - delay: 153
+    content: g
+  - delay: 124
+    content: "\r\n\e[?2004l\r"
+  - delay: 25
+    content: "\e[0;0H\e[Kcommit 81afbf4e7ca68933498c5679f2c7177c2cc88bf8 (HEAD -> master, origin/master, \r\n\e[Korigin/HEAD)\r\n\e[KAuthor: Seonghyeon <seonghyeon.drew@gmail.com>\r\n\e[KDate:   Fri Apr 4 10:29:13 2025 +0900\r\n\e[K\r\n\e[K    Create README.md\r\n\e[K\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[25;0H\e[K\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 85960
+    content: git log
+  - delay: 798
+    content: ' '
+  - delay: 624
+    content: '-'
+  - delay: 232
+    content: '-'
+  - delay: 466
+    content: d
+  - delay: 351
+    content: e
+  - delay: 370
+    content: c
+  - delay: 166
+    content: o
+  - delay: 431
+    content: r
+  - delay: 241
+    content: a
+  - delay: 297
+    content: t
+  - delay: 258
+    content: e
+  - delay: 205
+    content: ' '
+  - delay: 236
+    content: '-'
+  - delay: 754
+    content: '-'
+  - delay: 414
+    content: o
+  - delay: 194
+    content: 'n'
+  - delay: 334
+    content: l
+  - delay: 227
+    content: i
+  - delay: 239
+    content: 'n'
+  - delay: 171
+    content: e
+  - delay: 225
+    content: ' '
+  - delay: 854
+    content: '-'
+  - delay: 190
+    content: '-'
+  - delay: 308
+    content: g
+  - delay: 437
+    content: r
+  - delay: 210
+    content: a
+  - delay: 204
+    content: p
+  - delay: 716
+    content: h
+  - delay: 571
+    content: ' '
+  - delay: 207
+    content: '-'
+  - delay: 157
+    content: '-'
+  - delay: 813
+    content: a
+  - delay: 172
+    content: l
+  - delay: 168
+    content: l
+  - delay: 347
+    content: "\r\n\e[?2004l\r"
+  - delay: 22
+    content: "fatal: unrecognized argument: --online\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 2627
+    content: git log --decorate --online --graph --all
+  - delay: 10190
+    content: "\b"
+  - delay: 457
+    content: "\b"
+  - delay: 502
+    content: "\b"
+  - delay: 83
+    content: "\b"
+  - delay: 84
+    content: "\b"
+  - delay: 81
+    content: "\b"
+  - delay: 85
+    content: "\b"
+  - delay: 84
+    content: "\b"
+  - delay: 83
+    content: "\b"
+  - delay: 81
+    content: "\b"
+  - delay: 84
+    content: "\b"
+  - delay: 85
+    content: "\b"
+  - delay: 84
+    content: "\b"
+  - delay: 83
+    content: "\b"
+  - delay: 82
+    content: "\b"
+  - delay: 2398
+    content: "\e[C"
+  - delay: 249
+    content: "\b"
+  - delay: 200
+    content: "\b"
+  - delay: 194
+    content: "\b"
+  - delay: 267
+    content: "\b"
+  - delay: 238
+    content: "eline --graph --all \e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 406
+    content: "\r\n\r\e[?2004l\r"
+  - delay: 21
+    content: "\e[0;0H\e[K* 81afbf4 (HEAD -> master, origin/master, origin/HEAD) Create README.md\r\n\e[K\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[25;0H\e[K\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 3081
+    content: q
+  - delay: 1287
+    content: "\b\e[K"
+  - delay: 1782
+    content: g
+  - delay: 149
+    content: i
+  - delay: 179
+    content: t
+  - delay: 199
+    content: ' '
+  - delay: 847
+    content: b
+  - delay: 421
+    content: r
+  - delay: 199
+    content: a
+  - delay: 150
+    content: 'n'
+  - delay: 517
+    content: c
+  - delay: 662
+    content: h
+  - delay: 483
+    content: ' '
+  - delay: 255
+    content: d
+  - delay: 181
+    content: e
+  - delay: 276
+    content: v
+  - delay: 364
+    content: e
+  - delay: 196
+    content: l
+  - delay: 1650
+    content: o
+  - delay: 139
+    content: p
+  - delay: 570
+    content: "\r\n\e[?2004l\r"
+  - delay: 25
+    content: "\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 2558
+    content: git branch develop
+  - delay: 957
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\blog --decorate --oneline --graph --all \r"
+  - delay: 319
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Kl\r\n\e[?2004l\r"
+  - delay: 27
+    content: "\e[0;0H\e[K* 81afbf4 (HEAD -> master, origin/master, origin/HEAD, develop) Create README.md\r\n\e[K\r\n\e[K\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[25;0H\e[K\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 3692
+    content: q
+  - delay: 985
+    content: "\b\e[K"
+  - delay: 210
+    content: "\a"
+  - delay: 1239
+    content: g
+  - delay: 146
+    content: i
+  - delay: 133
+    content: t
+  - delay: 190
+    content: ' '
+  - delay: 428
+    content: d
+  - delay: 363
+    content: "\b\e[K"
+  - delay: 180
+    content: c
+  - delay: 84
+    content: h
+  - delay: 220
+    content: "\a"
+  - delay: 609
+    content: "\a"
+  - delay: 457
+    content: e
+  - delay: 213
+    content: "\a"
+  - delay: 623
+    content: c
+  - delay: 130
+    content: k
+  - delay: 1322
+    content: o
+  - delay: 192
+    content: u
+  - delay: 216
+    content: t
+  - delay: 152
+    content: ' '
+  - delay: 2668
+    content: d
+  - delay: 231
+    content: e
+  - delay: 189
+    content: v
+  - delay: 201
+    content: "\a"
+  - delay: 1577
+    content: e
+  - delay: 99
+    content: l
+  - delay: 450
+    content: o
+  - delay: 185
+    content: p
+  - delay: 469
+    content: "\r\n\e[?2004l\r"
+  - delay: 28
+    content: "Switched to branch 'develop'\r\n"
+  - delay: 5
+    content: "\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 6496
+    content: git checkout develop
+  - delay: 1372
+    content: "\r\n\e[?2004l\r"
+  - delay: 26
+    content: "Already on 'develop'\r\n"
+  - delay: 5
+    content: "\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 2567
+    content: git checkout develop
+  - delay: 737
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\blog --decorate --oneline --graph --all \r"
+  - delay: 585
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Kl\r\n\e[?2004l\r"
+  - delay: 12
+    content: "\e[0;0H\e[K* 81afbf4 (HEAD -> develop, origin/master, origin/HEAD, master) Create README.md\r\n\e[K\r\n\e[K\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[25;0H\e[K\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 979
+    content: q
+  - delay: 1840
+    content: "\r\n\e[?2004l\rbash: q: command not found\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 189
+    content: "\a"
+  - delay: 243
+    content: "\a"
+  - delay: 21279
+    content: q
+  - delay: 570
+    content: "\bgit log --decorate --oneline --graph --all \r"
+  - delay: 4492
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Cq\e[K\r\n\r\e[K\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 1547
+    content: "\bgit log --decorate --oneline --graph --all \r"
+  - delay: 474
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Cq\e[K\r\n\r\e[K\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 1104
+    content: "\b\e[K"
+  - delay: 11330
+    content: v
+  - delay: 99
+    content: i
+  - delay: 137
+    content: ' '
+  - delay: 758
+    content: R
+  - delay: 207
+    content: 'EADME.md '
+  - delay: 1521
+    content: "\r\n\e[?2004l\r"
+  - delay: 9
+    content: "\e[?1049h\e[H\e[J\e[1;1H# GLSO0215 LAB\e[3;1H## Lab 5 Branch\e[4;1H~\e[5;1H~\e[6;1H~\e[7;1H~\e[8;1H~\e[9;1H~\e[10;1H~\e[11;1H~\e[12;1H~\e[13;1H~\e[14;1H~\e[15;1H~\e[16;1H~\e[17;1H~\e[18;1H~\e[19;1H~\e[20;1H~\e[21;1H~\e[22;1H~\e[23;1H~\e[24;1H~\e[1;1H\e[25;1H\e[K- README.md 1/3 33%\e[1;1H"
+  - delay: 1207
+    content: "\e[2;1H\e[25;1H\e[K- README.md 2/3 66%\e[2;1H"
+  - delay: 209
+    content: "\e[3;1H\e[25;1H\e[K- README.md 3/3 100%\e[3;1H"
+  - delay: 186
+    content: "\a\e[3;1H"
+  - delay: 182
+    content: "\a\e[3;1H"
+  - delay: 201
+    content: "\a\e[3;1H"
+  - delay: 163
+    content: "\a\e[3;1H"
+  - delay: 670
+    content: "\e[3;1H\e[25;1H\e[KI README.md 3/3 100%\e[3;1H"
+  - delay: 527
+    content: "\a\e[3;1H"
+  - delay: 687
+    content: "\e[3;2H"
+  - delay: 824
+    content: "\e[3;16H"
+  - delay: 508
+    content: "\e[4;1H \e[4;1H\e[25;1H\e[KI README.md 4/3 133%\e[4;1H"
+  - delay: 668
+    content: "\e[5;1H \e[5;1H\e[25;1H\e[KI README.md [Modified] 5/5 100%\e[5;1H"
+  - delay: 1482
+    content: "\e[5;1HC\e[5;2H"
+  - delay: 117
+    content: "\e[5;2HH\e[5;3H"
+  - delay: 71
+    content: "\e[5;3HO\e[5;4H"
+  - delay: 385
+    content: "\e[5;3H \e[5;3H"
+  - delay: 148
+    content: "\e[5;2H \e[5;2H"
+  - delay: 119
+    content: "\e[5;1H \e[5;1H"
+  - delay: 264
+    content: "\e[5;1HJ\e[5;2H"
+  - delay: 117
+    content: "\e[5;2HI\e[5;3H"
+  - delay: 155
+    content: "\e[5;3HHN\e[5;5H"
+  - delay: 1294
+    content: "\e[5;4H \e[5;4H"
+  - delay: 128
+    content: "\e[5;3H \e[5;3H"
+  - delay: 676
+    content: "\e[5;3HN\e[5;4H"
+  - delay: 166
+    content: "\e[5;4HH\e[5;5H"
+  - delay: 232
+    content: "\e[5;5HY\e[5;6H"
+  - delay: 135
+    content: "\e[5;6HO\e[5;7H"
+  - delay: 51
+    content: "\e[5;7HK\e[5;8H"
+  - delay: 297
+    content: "\e[5;9H"
+  - delay: 363
+    content: "\e[5;9HC\e[5;10H"
+  - delay: 152
+    content: "\e[5;10HH\e[5;11H"
+  - delay: 134
+    content: "\e[5;11HO\e[5;12H"
+  - delay: 207
+    content: "\e[5;12HI\e[5;13H"
+  - delay: 1539
+    content: "\e[5;12H\e[25;1H\e[K- README.md [Modified] 5/5 100%\e[5;12H"
+  - delay: 387
+    content: "\e[25;1H\e[K:"
+  - delay: 218
+    content: w
+  - delay: 179
+    content: q
+  - delay: 190
+    content: "\e[5;12H\e[5;12H\e[25;1H\e[K'README.md' 5L, 46C\e[5;12H\e[25;1H\e[K\e[?1049l\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 6708
+    content: 'vi README.md '
+  - delay: 806
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\bq\e[K"
+  - delay: 373
+    content: "\bgit log --decorate --oneline --graph --all \r"
+  - delay: 3350
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Kl\r\n\e[?2004l\r"
+  - delay: 21
+    content: "\e[0;0H\e[K* 81afbf4 (HEAD -> develop, origin/master, origin/HEAD, master) Create README.md\r\n\e[K\r\n\e[K\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[25;0H\e[K\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 12622
+    content: "git log --decorate --oneline --graph --all \r"
+  - delay: 4310
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[K\r\n\r\e[K\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 753
+    content: "git log --decorate --oneline --graph --all \r"
+  - delay: 1735
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[K\r\n\r\e[K\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 2532
+    content: g
+  - delay: 101
+    content: i
+  - delay: 112
+    content: t
+  - delay: 183
+    content: ' '
+  - delay: 352
+    content: a
+  - delay: 249
+    content: d
+  - delay: 135
+    content: d
+  - delay: 195
+    content: ' '
+  - delay: 321
+    content: R
+  - delay: 223
+    content: 'EADME.md '
+  - delay: 391
+    content: "\r\n\e[?2004l\r"
+  - delay: 20
+    content: "\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 751
+    content: g
+  - delay: 132
+    content: i
+  - delay: 68
+    content: t
+  - delay: 401
+    content: ' '
+  - delay: 302
+    content: c
+  - delay: 205
+    content: o
+  - delay: 491
+    content: m
+  - delay: 138
+    content: m
+  - delay: 194
+    content: i
+  - delay: 188
+    content: t
+  - delay: 249
+    content: ' '
+  - delay: 412
+    content: '-'
+  - delay: 805
+    content: m
+  - delay: 198
+    content: ' '
+  - delay: 655
+    content: '"'
+  - delay: 373
+    content: A
+  - delay: 342
+    content: d
+  - delay: 184
+    content: d
+  - delay: 503
+    content: ' '
+  - delay: 202
+    content: m
+  - delay: 140
+    content: 'y'
+  - delay: 187
+    content: ' '
+  - delay: 347
+    content: 'n'
+  - delay: 103
+    content: a
+  - delay: 163
+    content: m
+  - delay: 48
+    content: e
+  - delay: 530
+    content: '"'
+  - delay: 14085
+    content: "\r\n\e[?2004l\r"
+  - delay: 29
+    content: "[develop 562d2fb] Add my name\r\n 1 file changed, 2 insertions(+)\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 8212
+    content: git commit -m "Add my name"
+  - delay: 564
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[9Padd README.md "
+  - delay: 411
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\blog --decorate --oneline --graph --all \r"
+  - delay: 3356
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Kl\r\n\e[?2004l\r"
+  - delay: 27
+    content: "\e[0;0H\e[K* 562d2fb (HEAD -> develop) Add my name\r\n\e[K* 81afbf4 (origin/master, origin/HEAD, master) Create README.md\r\n\e[K\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[25;0H\e[K\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 150403
+    content: ㅎ
+  - delay: 331
+    content: ㅑ
+  - delay: 171
+    content: 'ㅅ '
+  - delay: 307
+    content: ㅡ
+  - delay: 324
+    content: ㄷ
+  - delay: 179
+    content: "\b\b\e[K"
+  - delay: 113
+    content: "\b\b\e[K"
+  - delay: 136
+    content: "\b\e[K"
+  - delay: 134
+    content: "\b\b\e[K"
+  - delay: 118
+    content: "\b\b\e[K"
+  - delay: 131
+    content: "\b\b\e[K"
+  - delay: 374
+    content: m
+  - delay: 491
+    content: "\b\e[K"
+  - delay: 222
+    content: g
+  - delay: 113
+    content: i
+  - delay: 117
+    content: t
+  - delay: 184
+    content: ' '
+  - delay: 166
+    content: m
+  - delay: 119
+    content: e
+  - delay: 214
+    content: r
+  - delay: 438
+    content: g
+  - delay: 119
+    content: h
+  - delay: 180
+    content: ' '
+  - delay: 498
+    content: "\b\e[K"
+  - delay: 153
+    content: "\b\e[K"
+  - delay: 390
+    content: e
+  - delay: 180
+    content: ' '
+  - delay: 3316
+    content: d
+  - delay: 249
+    content: e
+  - delay: 283
+    content: v
+  - delay: 1349
+    content: e
+  - delay: 166
+    content: l
+  - delay: 561
+    content: o
+  - delay: 157
+    content: p
+  - delay: 1292
+    content: "\r\n\e[?2004l\r"
+  - delay: 26
+    content: "Already up to date.\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 8694
+    content: g
+  - delay: 119
+    content: i
+  - delay: 83
+    content: t
+  - delay: 148
+    content: ' '
+  - delay: 1129
+    content: c
+  - delay: 124
+    content: h
+  - delay: 279
+    content: e
+  - delay: 284
+    content: c
+  - delay: 105
+    content: k
+  - delay: 797
+    content: o
+  - delay: 199
+    content: u
+  - delay: 198
+    content: t
+  - delay: 150
+    content: ' '
+  - delay: 286
+    content: m
+  - delay: 120
+    content: a
+  - delay: 259
+    content: s
+  - delay: 305
+    content: t
+  - delay: 212
+    content: e
+  - delay: 152
+    content: r
+  - delay: 183
+    content: "\r\n\e[?2004l\r"
+  - delay: 22
+    content: "Switched to branch 'master'\r\nYour branch is up to date with 'origin/master'.\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 946
+    content: git checkout master
+  - delay: 429
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[2Pmerge develop"
+  - delay: 707
+    content: "\r\n\e[?2004l\r"
+  - delay: 20
+    content: "Updating 81afbf4..562d2fb\r\nFast-forward\r\n"
+  - delay: 8
+    content: " README.md | 2 \e[32m++\e[m\r\n 1 file changed, 2 insertions(+)\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 167124
+    content: git merge develop
+  - delay: 2017
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\bcheckout master"
+  - delay: 518
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[2Pmerge develop"
+  - delay: 347
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\blog --decorate --oneline --graph --all \r"
+  - delay: 569
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Kl\r\n\e[?2004l\r"
+  - delay: 30
+    content: "\e[0;0H\e[K* 562d2fb (HEAD -> master, develop) Add my name\r\n\e[K* 81afbf4 (origin/master, origin/HEAD) Create README.md\r\n\e[K\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[25;0H\e[K\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 18736
+    content: "git log --decorate --oneline --graph --all \r"
+  - delay: 11205
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[K\r\n\r\e[K\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 44066
+    content: c
+  - delay: 154
+    content: a
+  - delay: 275
+    content: r
+  - delay: 614
+    content: "\b\e[K"
+  - delay: 150
+    content: t
+  - delay: 135
+    content: ' '
+  - delay: 262
+    content: r
+  - delay: 383
+    content: "\b\e[K"
+  - delay: 176
+    content: R
+  - delay: 228
+    content: 'EADME.md '
+  - delay: 319
+    content: "\r\n\e[?2004l\r"
+  - delay: 9
+    content: "# GLSO0215 LAB\r\n\r\n## Lab 5 Branch\r\n\r\nJINHYOK CHOI\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 64064
+    content: '햣 '
+  - delay: 360
+    content: "\b\e[K"
+  - delay: 149
+    content: "\b\b\e[K"
+  - delay: 162
+    content: "\a"
+  - delay: 347
+    content: g
+  - delay: 152
+    content: i
+  - delay: 108
+    content: t
+  - delay: 130
+    content: ' '
+  - delay: 305
+    content: c
+  - delay: 178
+    content: h
+  - delay: 337
+    content: e
+  - delay: 265
+    content: c
+  - delay: 97
+    content: k
+  - delay: 149
+    content: "\a"
+  - delay: 430
+    content: "\a"
+  - delay: 363
+    content: o
+  - delay: 159
+    content: u
+  - delay: 128
+    content: t
+  - delay: 163
+    content: ' '
+  - delay: 2693
+    content: d
+  - delay: 285
+    content: e
+  - delay: 1283
+    content: e
+  - delay: 433
+    content: "\b\e[K"
+  - delay: 346
+    content: v
+  - delay: 256
+    content: e
+  - delay: 389
+    content: l
+  - delay: 283
+    content: o
+  - delay: 183
+    content: p
+  - delay: 399
+    content: "\r\n\e[?2004l\r"
+  - delay: 30
+    content: "Switched to branch 'develop'\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 122594
+    content: '퍄 '
+  - delay: 596
+    content: "\b\e[K"
+  - delay: 178
+    content: "\b\b\e[K"
+  - delay: 121
+    content: "\a"
+  - delay: 321
+    content: c
+  - delay: 580
+    content: "\b\e[K"
+  - delay: 279
+    content: v
+  - delay: 118
+    content: i
+  - delay: 442
+    content: ' '
+  - delay: 337
+    content: R
+  - delay: 232
+    content: 'EADME.md '
+  - delay: 1409
+    content: "\r\n\e[?2004l\r\e[?1049h\e[H\e[J\e[1;1H# GLSO0215 LAB\e[3;1H## Lab 5 Branch\e[5;1HJINHYOK CHOI\e[6;1H~\e[7;1H~\e[8;1H~\e[9;1H~\e[10;1H~\e[11;1H~\e[12;1H~\e[13;1H~\e[14;1H~\e[15;1H~\e[16;1H~\e[17;1H~\e[18;1H~\e[19;1H~\e[20;1H~\e[21;1H~\e[22;1H~\e[23;1H~\e[24;1H~\e[1;1H\e[25;1H\e[K- README.md 1/5 20%\e[1;1H"
+  - delay: 1272
+    content: "\e[1;1H\e[25;1H\e[KI README.md 1/5 20%\e[1;1H"
+  - delay: 603
+    content: "\e[2;1H\e[25;1H\e[KI README.md 2/5 40%\e[2;1H"
+  - delay: 501
+    content: "\e[3;1H\e[25;1H\e[KI README.md 3/5 60%\e[3;1H"
+  - delay: 85
+    content: "\e[4;1H\e[25;1H\e[KI README.md 4/5 80%\e[4;1H"
+  - delay: 82
+    content: "\e[5;1H\e[25;1H\e[KI README.md 5/5 100%\e[5;1H"
+  - delay: 84
+    content: "\a\e[5;1H"
+  - delay: 86
+    content: "\a\e[5;1H"
+  - delay: 83
+    content: "\a\e[5;1H"
+  - delay: 84
+    content: "\a\e[5;1H"
+  - delay: 180
+    content: "\a\e[5;1H"
+  - delay: 719
+    content: "\e[5;13H"
+  - delay: 335
+    content: "\e[6;1H \e[6;1H\e[25;1H\e[KI README.md 6/5 120%\e[6;1H"
+  - delay: 2873
+    content: "\e[6;1Hd\e[6;2H"
+  - delay: 161
+    content: "\e[6;2Ha\e[6;3H"
+  - delay: 165
+    content: "\e[6;3Hn\e[6;4H"
+  - delay: 108
+    content: "\e[6;4Hi\e[6;5H"
+  - delay: 141
+    content: "\e[6;5He\e[6;6H"
+  - delay: 134
+    content: "\e[6;6Hl\e[6;7H"
+  - delay: 331
+    content: "\e[6;7H0\e[6;8H"
+  - delay: 240
+    content: "\e[6;8H4\e[6;9H"
+  - delay: 129
+    content: "\e[6;9H0\e[6;10H"
+  - delay: 188
+    content: "\e[6;10H6\e[6;11H"
+  - delay: 158
+    content: "\e[6;11H0\e[6;12H"
+  - delay: 158
+    content: "\e[6;12H7\e[6;13H"
+  - delay: 196
+    content: "\e[6;13H0\e[6;14H"
+  - delay: 384
+    content: "\e[6;14H@\e[6;15H"
+  - delay: 228
+    content: "\e[6;15Hg\e[6;16H"
+  - delay: 206
+    content: "\e[6;16Ha\e[6;17H"
+  - delay: 563
+    content: "\e[6;16H \e[6;16H\e[25;1H\e[KI README.md [Modified] 6/6 100%\e[6;16H"
+  - delay: 202
+    content: "\e[6;16Hm\e[6;17H"
+  - delay: 134
+    content: "\e[6;17Ha\e[6;18H"
+  - delay: 167
+    content: "\e[6;18Hi\e[6;19H"
+  - delay: 220
+    content: "\e[6;19Hl\e[6;20H"
+  - delay: 249
+    content: "\e[6;20H.\e[6;21H"
+  - delay: 181
+    content: "\e[6;21Hc\e[6;22H"
+  - delay: 84
+    content: "\e[6;22Ho\e[6;23H"
+  - delay: 96
+    content: "\e[6;23Hm\e[6;24H"
+  - delay: 799
+    content: "\e[6;23H\e[25;1H\e[K- README.md [Modified] 6/6 100%\e[6;23H"
+  - delay: 751
+    content: "\e[25;1H\e[K:"
+  - delay: 236
+    content: w
+  - delay: 216
+    content: q
+  - delay: 1336
+    content: "\e[6;23H\e[6;23H\e[25;1H\e[K'README.md' 6L, 70C\e[6;23H\e[25;1H\e[K\e[?1049l\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 21334
+    content: g
+  - delay: 129
+    content: i
+  - delay: 85
+    content: t
+  - delay: 198
+    content: ' '
+  - delay: 169
+    content: a
+  - delay: 655
+    content: d
+  - delay: 447
+    content: "\a"
+  - delay: 596
+    content: d
+  - delay: 222
+    content: ' '
+  - delay: 451
+    content: R
+  - delay: 198
+    content: 'EADME.md '
+  - delay: 381
+    content: "\r\n\e[?2004l\r"
+  - delay: 22
+    content: "\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 736
+    content: g
+  - delay: 109
+    content: i
+  - delay: 107
+    content: t
+  - delay: 118
+    content: ' '
+  - delay: 241
+    content: c
+  - delay: 122
+    content: o
+  - delay: 487
+    content: m
+  - delay: 171
+    content: m
+  - delay: 182
+    content: i
+  - delay: 205
+    content: t
+  - delay: 191
+    content: ' '
+  - delay: 256
+    content: '0'
+  - delay: 574
+    content: "\b\e[K"
+  - delay: 255
+    content: p
+  - delay: 669
+    content: "\b\e[K"
+  - delay: 215
+    content: '-'
+  - delay: 234
+    content: m
+  - delay: 168
+    content: ' '
+  - delay: 1349
+    content: '"'
+  - delay: 234
+    content: a
+  - delay: 299
+    content: d
+  - delay: 182
+    content: d
+  - delay: 1658
+    content: ' '
+  - delay: 381
+    content: E
+  - delay: 829
+    content: "\b\e[K"
+  - delay: 183
+    content: e
+  - delay: 207
+    content: m
+  - delay: 231
+    content: a
+  - delay: 233
+    content: i
+  - delay: 133
+    content: l
+  - delay: 476
+    content: '"'
+  - delay: 536
+    content: "\r\n\e[?2004l\r"
+  - delay: 36
+    content: "[develop b5c6e15] add email\r\n 1 file changed, 1 insertion(+)\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 2936
+    content: git commit -m "add email"
+  - delay: 198
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[7Padd README.md "
+  - delay: 910
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[5Pvi\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 23
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\e[5@git add\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 490
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[5Pvi\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 354
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\bgit checkout develop"
+  - delay: 372
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[6Pcat README.md "
+  - delay: 717
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\bgit log --decorate --oneline --graph --all \r"
+  - delay: 621
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Kl\r\n\e[?2004l\r"
+  - delay: 22
+    content: "\e[0;0H\e[K* b5c6e15 (HEAD -> develop) add email\r\n\e[K* 562d2fb (master) Add my name\r\n\e[K* 81afbf4 (origin/master, origin/HEAD) Create README.md\r\n\e[K\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[25;0H\e[K\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 125615
+    content: g
+  - delay: 169
+    content: i
+  - delay: 138
+    content: t
+  - delay: 164
+    content: ' '
+  - delay: 350
+    content: c
+  - delay: 319
+    content: h
+  - delay: 232
+    content: e
+  - delay: 240
+    content: c
+  - delay: 122
+    content: k
+  - delay: 752
+    content: o
+  - delay: 191
+    content: u
+  - delay: 185
+    content: t
+  - delay: 169
+    content: ' '
+  - delay: 472
+    content: m
+  - delay: 105
+    content: a
+  - delay: 186
+    content: s
+  - delay: 288
+    content: t
+  - delay: 196
+    content: e
+  - delay: 161
+    content: r
+  - delay: 145
+    content: "\r\n\e[?2004l\r"
+  - delay: 27
+    content: "Switched to branch 'master'\r\n"
+  - delay: 5
+    content: "Your branch is ahead of 'origin/master' by 1 commit.\r\n  (use \"git push\" to publish your local commits)\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 17557
+    content: c
+  - delay: 200
+    content: a
+  - delay: 282
+    content: t
+  - delay: 219
+    content: ' '
+  - delay: 398
+    content: R
+  - delay: 200
+    content: 'EADME.md '
+  - delay: 257
+    content: "\r\n\e[?2004l\r# GLSO0215 LAB\r\n\r\n## Lab 5 Branch\r\n\r\nJINHYOK CHOI\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 33901
+    content: g
+  - delay: 109
+    content: i
+  - delay: 82
+    content: t
+  - delay: 248
+    content: ' '
+  - delay: 399
+    content: c
+  - delay: 128
+    content: h
+  - delay: 195
+    content: e
+  - delay: 243
+    content: c
+  - delay: 117
+    content: k
+  - delay: 934
+    content: o
+  - delay: 268
+    content: u
+  - delay: 166
+    content: t
+  - delay: 138
+    content: ' '
+  - delay: 337
+    content: '-'
+  - delay: 414
+    content: b
+  - delay: 360
+    content: ' '
+  - delay: 1650
+    content: g
+  - delay: 126
+    content: o
+  - delay: 141
+    content: t
+  - delay: 256
+    content: f
+  - delay: 109
+    content: i
+  - delay: 230
+    content: x
+  - delay: 936
+    content: "\b\e[K"
+  - delay: 188
+    content: "\b\e[K"
+  - delay: 148
+    content: "\b\e[K"
+  - delay: 133
+    content: "\b\e[K"
+  - delay: 135
+    content: "\b\e[K"
+  - delay: 136
+    content: "\b\e[K"
+  - delay: 142
+    content: h
+  - delay: 171
+    content: o
+  - delay: 312
+    content: t
+  - delay: 834
+    content: f
+  - delay: 118
+    content: i
+  - delay: 194
+    content: x
+  - delay: 1829
+    content: "\r\n\e[?2004l\r"
+  - delay: 26
+    content: "Switched to a new branch 'hotfix'\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 4021
+    content: git checkout -b hotfix
+  - delay: 212
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[8Pcat README.md "
+  - delay: 196
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\bgit checkout master"
+  - delay: 164
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\blog --decorate --oneline --graph --all \r"
+  - delay: 169
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[17Pcommit -m \"add email\"\r\n\r\e[K\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 388
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\blog --decorate --oneline --graph --all \r"
+  - delay: 346
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Kl\r\n\e[?2004l\r"
+  - delay: 22
+    content: "\e[0;0H\e[K* b5c6e15 (develop) add email\r\n\e[K* 562d2fb (HEAD -> hotfix, master) Add my name\r\n\e[K* 81afbf4 (origin/master, origin/HEAD) Create README.md\r\n\e[K\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[25;0H\e[K\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 13223
+    content: v
+  - delay: 178
+    content: i
+  - delay: 118
+    content: ' '
+  - delay: 249
+    content: R
+  - delay: 243
+    content: 'EADME.md '
+  - delay: 499
+    content: "\r\n\e[?2004l\r\e[?1049h\e[H\e[J\e[1;1H# GLSO0215 LAB\e[3;1H## Lab 5 Branch\e[5;1HJINHYOK CHOI\e[6;1H~\e[7;1H~\e[8;1H~\e[9;1H~\e[10;1H~\e[11;1H~\e[12;1H~\e[13;1H~\e[14;1H~\e[15;1H~\e[16;1H~\e[17;1H~\e[18;1H~\e[19;1H~\e[20;1H~\e[21;1H~\e[22;1H~\e[23;1H~\e[24;1H~\e[1;1H\e[25;1H\e[K- README.md 1/5 20%\e[1;1H"
+  - delay: 6674
+    content: "\e[2;1H\e[25;1H\e[K- README.md 2/5 40%\e[2;1H"
+  - delay: 209
+    content: "\e[3;1H\e[25;1H\e[K- README.md 3/5 60%\e[3;1H"
+  - delay: 418
+    content: "\e[4;1H\e[25;1H\e[K- README.md 4/5 80%\e[4;1H"
+  - delay: 261
+    content: "\e[5;1H\e[25;1H\e[K- README.md 5/5 100%\e[5;1H"
+  - delay: 2708
+    content: "\e[5;1H\e[25;1H\e[KI README.md 5/5 100%\e[5;1H"
+  - delay: 832
+    content: "\e[5;1H*JINHYOK CHOI\e[5;2H"
+  - delay: 1330
+    content: "\e[5;2H JINHYOK CHOI\e[5;3H"
+  - delay: 895
+    content: "\e[5;2H\e[25;1H\e[K- README.md [Modified] 5/5 100%\e[5;2H"
+  - delay: 366
+    content: "\e[25;1H\e[K:"
+  - delay: 175
+    content: W
+  - delay: 178
+    content: q
+  - delay: 1103
+    content: "\e[25;1H\e[K:W"
+  - delay: 163
+    content: "\e[25;1H\e[K:"
+  - delay: 171
+    content: w
+  - delay: 133
+    content: q
+  - delay: 829
+    content: "\e[5;2H\e[5;2H\e[25;1H\e[K'README.md' 5L, 48C\e[5;2H\e[25;1H\e[K\e[?1049l\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 2852
+    content: g
+  - delay: 135
+    content: i
+  - delay: 133
+    content: t
+  - delay: 137
+    content: ' '
+  - delay: 327
+    content: s
+  - delay: 249
+    content: t
+  - delay: 461
+    content: "\a"
+  - delay: 874
+    content: a
+  - delay: 323
+    content: t
+  - delay: 210
+    content: "\a"
+  - delay: 398
+    content: u
+  - delay: 68
+    content: s
+  - delay: 191
+    content: "\r\n\e[?2004l\r"
+  - delay: 21
+    content: "On branch hotfix\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\t\e[31mmodified:   README.md\e[m\r\n\r\nno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 6110
+    content: g
+  - delay: 136
+    content: i
+  - delay: 95
+    content: t
+  - delay: 153
+    content: ' '
+  - delay: 194
+    content: d
+  - delay: 168
+    content: i
+  - delay: 486
+    content: f
+  - delay: 150
+    content: f
+  - delay: 130
+    content: "\r\n\e[?2004l\r"
+  - delay: 18
+    content: "\e[0;0H\e[Kdiff --git a/README.md b/README.md\r\n\e[Kindex f83d4f1..7364a88 100644\r\n\e[K--- a/README.md\r\n\e[K+++ b/README.md\r\n\e[K@@ -2,4 +2,4 @@\r\n\e[K \r\n\e[K ## Lab 5 Branch\r\n\e[K \r\n\e[K-JINHYOK CHOI\r\n\e[K+* JINHYOK CHOI\r\n\e[K\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[25;0H\e[K\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 18683
+    content: g
+  - delay: 99
+    content: i
+  - delay: 131
+    content: t
+  - delay: 158
+    content: ' '
+  - delay: 244
+    content: a
+  - delay: 194
+    content: d
+  - delay: 156
+    content: d
+  - delay: 146
+    content: ' '
+  - delay: 179
+    content: R
+  - delay: 181
+    content: 'EADME.md '
+  - delay: 276
+    content: "\r\n\e[?2004l\r"
+  - delay: 15
+    content: "\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 636
+    content: g
+  - delay: 47
+    content: i
+  - delay: 123
+    content: t
+  - delay: 126
+    content: ' '
+  - delay: 251
+    content: c
+  - delay: 36
+    content: o
+  - delay: 255
+    content: m
+  - delay: 190
+    content: m
+  - delay: 231
+    content: i
+  - delay: 167
+    content: t
+  - delay: 185
+    content: ' '
+  - delay: 1406
+    content: '-'
+  - delay: 251
+    content: 'n'
+  - delay: 1079
+    content: "\b\e[K"
+  - delay: 171
+    content: m
+  - delay: 357
+    content: ' '
+  - delay: 367
+    content: '"'
+  - delay: 1122
+    content: A
+  - delay: 256
+    content: d
+  - delay: 167
+    content: d
+  - delay: 166
+    content: ' '
+  - delay: 470
+    content: b
+  - delay: 137
+    content: u
+  - delay: 292
+    content: l
+  - delay: 184
+    content: l
+  - delay: 130
+    content: e
+  - delay: 250
+    content: t
+  - delay: 139
+    content: ' '
+  - delay: 1110
+    content: p
+  - delay: 251
+    content: o
+  - delay: 364
+    content: i
+  - delay: 150
+    content: 'n'
+  - delay: 276
+    content: t
+  - delay: 987
+    content: '"'
+  - delay: 491
+    content: "\r\n\e[?2004l\r"
+  - delay: 34
+    content: "[hotfix d4b1b38] Add bullet point\r\n 1 file changed, 1 insertion(+), 1 deletion(-)\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 2072
+    content: git commit -m "Add bullet point"
+  - delay: 2868
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[14Padd README.md "
+  - delay: 348
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\bdiff\e[K"
+  - delay: 370
+    content: "\b\b\b\bstatus"
+  - delay: 316
+    content: "\b\b\b\b\b\b\b\b\b\bvi README.md "
+  - delay: 372
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\bgit log --decorate --oneline --graph --all \r"
+  - delay: 732
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Kl\r\n\e[?2004l\r"
+  - delay: 24
+    content: "\e[0;0H\e[K* d4b1b38 (HEAD -> hotfix) Add bullet point\r\n\e[K| * b5c6e15 (develop) add email\r\n\e[K|/  \r\n\e[K* 562d2fb (master) Add my name\r\n\e[K* 81afbf4 (origin/master, origin/HEAD) Create README.md\r\n\e[K\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[25;0H\e[K\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 105630
+    content: g
+  - delay: 124
+    content: i
+  - delay: 100
+    content: t
+  - delay: 152
+    content: ' '
+  - delay: 648
+    content: c
+  - delay: 106
+    content: h
+  - delay: 206
+    content: e
+  - delay: 200
+    content: c
+  - delay: 109
+    content: k
+  - delay: 471
+    content: o
+  - delay: 181
+    content: u
+  - delay: 166
+    content: t
+  - delay: 205
+    content: ' '
+  - delay: 987
+    content: m
+  - delay: 149
+    content: a
+  - delay: 193
+    content: s
+  - delay: 249
+    content: t
+  - delay: 204
+    content: e
+  - delay: 179
+    content: r
+  - delay: 232
+    content: "\r\n\e[?2004l\r"
+  - delay: 25
+    content: "Switched to branch 'master'\r\n"
+  - delay: 5
+    content: "Your branch is ahead of 'origin/master' by 1 commit.\r\n  (use \"git push\" to publish your local commits)\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 390
+    content: g
+  - delay: 146
+    content: i
+  - delay: 113
+    content: t
+  - delay: 157
+    content: ' '
+  - delay: 310
+    content: m
+  - delay: 572
+    content: "\b\e[K"
+  - delay: 255
+    content: "\b\e[K"
+  - delay: 176
+    content: "\b\e[K"
+  - delay: 137
+    content: "\b\e[K"
+  - delay: 149
+    content: "\b\e[K"
+  - delay: 114
+    content: "\a"
+  - delay: 647
+    content: git checkout master
+  - delay: 173
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\blog --decorate --oneline --graph --all \r"
+  - delay: 817
+    content: \
+  - delay: 701
+    content: "\r\e[K"
+  - delay: 299
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Kl\r\n\e[?2004l\r"
+  - delay: 23
+    content: "\e[0;0H\e[K* d4b1b38 (hotfix) Add bullet point\r\n\e[K| * b5c6e15 (develop) add email\r\n\e[K|/  \r\n\e[K* 562d2fb (HEAD -> master) Add my name\r\n\e[K* 81afbf4 (origin/master, origin/HEAD) Create README.md\r\n\e[K\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[25;0H\e[K\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 739
+    content: g
+  - delay: 134
+    content: i
+  - delay: 137
+    content: t
+  - delay: 174
+    content: ' '
+  - delay: 459
+    content: m
+  - delay: 183
+    content: e
+  - delay: 234
+    content: r
+  - delay: 218
+    content: ' '
+  - delay: 631
+    content: "\b\e[K"
+  - delay: 484
+    content: g
+  - delay: 257
+    content: e
+  - delay: 170
+    content: ' '
+  - delay: 1591
+    content: g
+  - delay: 130
+    content: o
+  - delay: 134
+    content: t
+  - delay: 372
+    content: h
+  - delay: 272
+    content: "\b\e[K"
+  - delay: 168
+    content: "\b\e[K"
+  - delay: 140
+    content: "\b\e[K"
+  - delay: 135
+    content: "\b\e[K"
+  - delay: 123
+    content: "\b\e[K"
+  - delay: 501
+    content: ' '
+  - delay: 385
+    content: h
+  - delay: 410
+    content: o
+  - delay: 240
+    content: t
+  - delay: 888
+    content: f
+  - delay: 152
+    content: i
+  - delay: 129
+    content: g
+  - delay: 633
+    content: "\b\e[K"
+  - delay: 183
+    content: x
+  - delay: 524
+    content: "\r\n\e[?2004l\r"
+  - delay: 23
+    content: "Updating 562d2fb..d4b1b38\r\nFast-forward\r\n"
+  - delay: 6
+    content: " README.md | 2 \e[32m+\e[m\e[31m-\e[m\r\n 1 file changed, 1 insertion(+), 1 deletion(-)\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 1945
+    content: git merge hotfix
+  - delay: 3928
+    content: "\b\b\b\b\b\b\b\b\b\b\b\blog --decorate --oneline --graph --all \r"
+  - delay: 1189
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Kl\r\n\e[?2004l\r"
+  - delay: 26
+    content: "\e[0;0H\e[K* d4b1b38 (HEAD -> master, hotfix) Add bullet point\r\n\e[K| * b5c6e15 (develop) add email\r\n\e[K|/  \r\n\e[K* 562d2fb Add my name\r\n\e[K* 81afbf4 (origin/master, origin/HEAD) Create README.md\r\n\e[K\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[25;0H\e[K\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 16227
+    content: g
+  - delay: 153
+    content: i
+  - delay: 161
+    content: t
+  - delay: 161
+    content: ' '
+  - delay: 1121
+    content: v
+  - delay: 826
+    content: r
+  - delay: 1112
+    content: "\b\e[K"
+  - delay: 191
+    content: "\b\e[K"
+  - delay: 388
+    content: b
+  - delay: 667
+    content: r
+  - delay: 237
+    content: a
+  - delay: 189
+    content: 'n'
+  - delay: 424
+    content: c
+  - delay: 236
+    content: h
+  - delay: 1603
+    content: ' '
+  - delay: 192
+    content: '-'
+  - delay: 233
+    content: d
+  - delay: 151
+    content: ' '
+  - delay: 1647
+    content: g
+  - delay: 161
+    content: o
+  - delay: 179
+    content: t
+  - delay: 413
+    content: "\b\e[K"
+  - delay: 175
+    content: "\b\e[K"
+  - delay: 141
+    content: "\b\e[K"
+  - delay: 113
+    content: h
+  - delay: 102
+    content: o
+  - delay: 119
+    content: t
+  - delay: 422
+    content: f
+  - delay: 110
+    content: i
+  - delay: 211
+    content: x
+  - delay: 276
+    content: "\r\n\e[?2004l\r"
+  - delay: 20
+    content: "Deleted branch hotfix (was d4b1b38).\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 2230
+    content: git branch -d hotfix
+  - delay: 280
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\blog --decorate --oneline --graph --all \r"
+  - delay: 544
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Kl\r\n\e[?2004l\r"
+  - delay: 23
+    content: "\e[0;0H\e[K* d4b1b38 (HEAD -> master) Add bullet point\r\n\e[K| * b5c6e15 (develop) add email\r\n\e[K|/  \r\n\e[K* 562d2fb Add my name\r\n\e[K* 81afbf4 (origin/master, origin/HEAD) Create README.md\r\n\e[K\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[25;0H\e[K\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 20130
+    content: g
+  - delay: 156
+    content: i
+  - delay: 108
+    content: t
+  - delay: 175
+    content: ' '
+  - delay: 462
+    content: c
+  - delay: 265
+    content: h
+  - delay: 263
+    content: e
+  - delay: 292
+    content: c
+  - delay: 131
+    content: k
+  - delay: 651
+    content: o
+  - delay: 220
+    content: u
+  - delay: 243
+    content: t
+  - delay: 238
+    content: ' '
+  - delay: 1245
+    content: d
+  - delay: 216
+    content: e
+  - delay: 253
+    content: v
+  - delay: 229
+    content: e
+  - delay: 118
+    content: l
+  - delay: 319
+    content: o
+  - delay: 159
+    content: p
+  - delay: 458
+    content: "\r\n\e[?2004l\r"
+  - delay: 27
+    content: "Switched to branch 'develop'\r\n"
+  - delay: 7
+    content: "\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 2797
+    content: v
+  - delay: 120
+    content: i
+  - delay: 115
+    content: ' '
+  - delay: 734
+    content: R
+  - delay: 211
+    content: 'EADME.md '
+  - delay: 329
+    content: "\r\n\e[?2004l\r\e[?1049h\e[H\e[J\e[1;1H# GLSO0215 LAB\e[3;1H## Lab 5 Branch\e[5;1HJINHYOK CHOI\e[6;1Hdaniel0406070@gmail.com\e[7;1H~\e[8;1H~\e[9;1H~\e[10;1H~\e[11;1H~\e[12;1H~\e[13;1H~\e[14;1H~\e[15;1H~\e[16;1H~\e[17;1H~\e[18;1H~\e[19;1H~\e[20;1H~\e[21;1H~\e[22;1H~\e[23;1H~\e[24;1H~\e[1;1H\e[25;1H\e[K- README.md 1/6 16%\e[1;1H"
+  - delay: 1154
+    content: "\e[2;1H"
+  - delay: 207
+    content: "\e[3;1H"
+  - delay: 179
+    content: "\e[4;1H\e[25;1H\e[K- README.md 4/6 66%\e[4;1H"
+  - delay: 185
+    content: "\e[5;1H"
+  - delay: 164
+    content: "\e[6;1H\e[25;1H\e[K- README.md 6/6 100%\e[6;1H"
+  - delay: 873
+    content: "\e[6;1H\e[25;1H\e[KI README.md 6/6 100%\e[6;1H"
+  - delay: 936
+    content: "\e[6;1H*daniel0406070@gmail.com\e[6;2H"
+  - delay: 1877
+    content: "\e[6;2H daniel0406070@gmail.com\e[6;3H"
+  - delay: 3527
+    content: "\e[6;2H\e[25;1H\e[K- README.md [Modified] 6/6 100%\e[6;2H"
+  - delay: 887
+    content: "\e[25;1H\e[K:"
+  - delay: 316
+    content: w
+  - delay: 246
+    content: q
+  - delay: 308
+    content: "\e[6;2H\e[6;2H\e[25;1H\e[K'README.md' 6L, 72C\e[6;2H\e[25;1H\e[K\e[?1049l\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 41342
+    content: '햣 '
+  - delay: 999
+    content: ㅇ
+  - delay: 123
+    content: "\b\b\e[K"
+  - delay: 131
+    content: "\b\e[K"
+  - delay: 120
+    content: "\b\b\e[K"
+  - delay: 166
+    content: "\a"
+  - delay: 775
+    content: g
+  - delay: 70
+    content: i
+  - delay: 107
+    content: t
+  - delay: 153
+    content: ' '
+  - delay: 260
+    content: d
+  - delay: 283
+    content: i
+  - delay: 219
+    content: f
+  - delay: 162
+    content: f
+  - delay: 119
+    content: "\r\n\e[?2004l\r"
+  - delay: 18
+    content: "\e[0;0H\e[Kdiff --git a/README.md b/README.md\r\n\e[Kindex 899267e..d327399 100644\r\n\e[K--- a/README.md\r\n\e[K+++ b/README.md\r\n\e[K@@ -3,4 +3,4 @@\r\n\e[K ## Lab 5 Branch\r\n\e[K \r\n\e[K JINHYOK CHOI\r\n\e[K-daniel0406070@gmail.com\r\n\e[K+* daniel0406070@gmail.com\r\n\e[K\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[25;0H\e[K\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 13232
+    content: g
+  - delay: 139
+    content: i
+  - delay: 260
+    content: t
+  - delay: 180
+    content: ' '
+  - delay: 459
+    content: a
+  - delay: 441
+    content: d
+  - delay: 197
+    content: d
+  - delay: 173
+    content: ' '
+  - delay: 518
+    content: "\a"
+  - delay: 385
+    content: "\r\n.git/      README.md  \r\n2ab1a0b95ba2:/workspace/glso0215-lab# git add "
+  - delay: 1164
+    content: R
+  - delay: 401
+    content: 'EADME.md '
+  - delay: 952
+    content: "\r\n\e[?2004l\r"
+  - delay: 24
+    content: "\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 670
+    content: g
+  - delay: 57
+    content: i
+  - delay: 113
+    content: t
+  - delay: 125
+    content: ' '
+  - delay: 241
+    content: c
+  - delay: 83
+    content: o
+  - delay: 267
+    content: m
+  - delay: 170
+    content: m
+  - delay: 263
+    content: i
+  - delay: 196
+    content: t
+  - delay: 225
+    content: ' '
+  - delay: 2510
+    content: '-'
+  - delay: 1819
+    content: a
+  - delay: 269
+    content: ' '
+  - delay: 215
+    content: '-'
+  - delay: 1021
+    content: m
+  - delay: 796
+    content: "\b\e[K"
+  - delay: 197
+    content: "\b\e[K"
+  - delay: 175
+    content: "\b\e[K"
+  - delay: 344
+    content: "\b\e[K"
+  - delay: 275
+    content: m
+  - delay: 144
+    content: ' '
+  - delay: 978
+    content: '"'
+  - delay: 805
+    content: A
+  - delay: 848
+    content: d
+  - delay: 196
+    content: d
+  - delay: 160
+    content: ' '
+  - delay: 342
+    content: b
+  - delay: 263
+    content: u
+  - delay: 19
+    content: i
+  - delay: 484
+    content: "\b\e[K"
+  - delay: 539
+    content: l
+  - delay: 167
+    content: l
+  - delay: 609
+    content: e
+  - delay: 306
+    content: t
+  - delay: 212
+    content: ' '
+  - delay: 1103
+    content: p
+  - delay: 88
+    content: o
+  - delay: 385
+    content: i
+  - delay: 179
+    content: 'n'
+  - delay: 794
+    content: t
+  - delay: 176
+    content: ' '
+  - delay: 244
+    content: t
+  - delay: 163
+    content: o
+  - delay: 337
+    content: ' '
+  - delay: 463
+    content: e
+  - delay: 233
+    content: m
+  - delay: 157
+    content: a
+  - delay: 211
+    content: i
+  - delay: 664
+    content: l
+  - delay: 589
+    content: '"'
+  - delay: 301
+    content: "\r\n\e[?2004l\r"
+  - delay: 35
+    content: "[develop 74e105f] Add bullet point to email\r\n 1 file changed, 1 insertion(+), 1 deletion(-)\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 3797
+    content: git commit -m "Add bullet point to email"
+  - delay: 609
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[23Padd README.md "
+  - delay: 361
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\bdiff\e[K"
+  - delay: 479
+    content: "\b\b\b\b\b\b\b\bvi README.md "
+  - delay: 284
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\bgit checkout develop"
+  - delay: 430
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\blog --decorate --oneline --graph --all \r"
+  - delay: 583
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Kl\r\n\e[?2004l\r"
+  - delay: 24
+    content: "\e[0;0H\e[K* 74e105f (HEAD -> develop) Add bullet point to email\r\n\e[K* b5c6e15 add email\r\n\e[K| * d4b1b38 (master) Add bullet point\r\n\e[K|/  \r\n\e[K* 562d2fb Add my name\r\n\e[K* 81afbf4 (origin/master, origin/HEAD) Create README.md\r\n\e[K\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[25;0H\e[K\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 13424
+    content: g
+  - delay: 137
+    content: i
+  - delay: 100
+    content: t
+  - delay: 133
+    content: ' '
+  - delay: 623
+    content: c
+  - delay: 135
+    content: h
+  - delay: 160
+    content: e
+  - delay: 213
+    content: c
+  - delay: 114
+    content: k
+  - delay: 514
+    content: o
+  - delay: 143
+    content: i
+  - delay: 171
+    content: t
+  - delay: 373
+    content: "\b\e[K"
+  - delay: 156
+    content: "\b\e[K"
+  - delay: 233
+    content: u
+  - delay: 118
+    content: t
+  - delay: 136
+    content: ' '
+  - delay: 250
+    content: m
+  - delay: 138
+    content: a
+  - delay: 225
+    content: s
+  - delay: 318
+    content: e
+  - delay: 436
+    content: "\b\e[K"
+  - delay: 108
+    content: t
+  - delay: 254
+    content: e
+  - delay: 173
+    content: r
+  - delay: 150
+    content: "\r\n\e[?2004l\r"
+  - delay: 25
+    content: "Switched to branch 'master'\r\n"
+  - delay: 5
+    content: "Your branch is ahead of 'origin/master' by 2 commits.\r\n  (use \"git push\" to publish your local commits)\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 532
+    content: git checkout master
+  - delay: 232
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\blog --decorate --oneline --graph --all \r"
+  - delay: 437
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Kl\r\n\e[?2004l\r"
+  - delay: 25
+    content: "\e[0;0H\e[K* 74e105f (develop) Add bullet point to email\r\n\e[K* b5c6e15 add email\r\n\e[K| * d4b1b38 (HEAD -> master) Add bullet point\r\n\e[K|/  \r\n\e[K* 562d2fb Add my name\r\n\e[K* 81afbf4 (origin/master, origin/HEAD) Create README.md\r\n\e[K\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[25;0H\e[K\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 3515
+    content: g
+  - delay: 85
+    content: i
+  - delay: 117
+    content: t
+  - delay: 139
+    content: ' '
+  - delay: 198
+    content: m
+  - delay: 91
+    content: e
+  - delay: 239
+    content: r
+  - delay: 387
+    content: g
+  - delay: 236
+    content: e
+  - delay: 176
+    content: ' '
+  - delay: 669
+    content: d
+  - delay: 123
+    content: i
+  - delay: 443
+    content: "\b\e[K"
+  - delay: 200
+    content: e
+  - delay: 336
+    content: v
+  - delay: 249
+    content: e
+  - delay: 267
+    content: l
+  - delay: 838
+    content: o
+  - delay: 84
+    content: p
+  - delay: 458
+    content: "\r\n\e[?2004l\r"
+  - delay: 37
+    content: "Auto-merging README.md\r\nCONFLICT (content): Merge conflict in README.md\r\nAutomatic merge failed; fix conflicts and then commit the result.\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 29442
+    content: g
+  - delay: 87
+    content: i
+  - delay: 100
+    content: t
+  - delay: 119
+    content: ' '
+  - delay: 315
+    content: s
+  - delay: 253
+    content: t
+  - delay: 174
+    content: a
+  - delay: 159
+    content: t
+  - delay: 180
+    content: "\r\n\e[?2004l\r"
+  - delay: 16
+    content: "git: 'stat' is not a git command. See 'git --help'.\r\n\r\nThe most similar commands are\r\n\tstatus\r\n\tstage\r\n\tstash\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 1055
+    content: git stat
+  - delay: 451
+    content: u
+  - delay: 113
+    content: s
+  - delay: 167
+    content: "\r\n\e[?2004l\r"
+  - delay: 18
+    content: "On branch master\r\nYour branch is ahead of 'origin/master' by 2 commits.\r\n  (use \"git push\" to publish your local commits)\r\n\r\nYou have unmerged paths.\r\n  (fix conflicts and run \"git commit\")\r\n  (use \"git merge --abort\" to abort the merge)\r\n\r\nUnmerged paths:\r\n  (use \"git add <file>...\" to mark resolution)\r\n\t\e[31mboth modified:   README.md\e[m\r\n\r\nno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 17947
+    content: c
+  - delay: 186
+    content: a
+  - delay: 313
+    content: t
+  - delay: 191
+    content: ' '
+  - delay: 797
+    content: R
+  - delay: 283
+    content: 'EADME.md '
+  - delay: 630
+    content: "\r\n\e[?2004l\r# GLSO0215 LAB\r\n\r\n## Lab 5 Branch\r\n\r\n<<<<<<< HEAD\r\n* JINHYOK CHOI\r\n=======\r\nJINHYOK CHOI\r\n* daniel0406070@gmail.com\r\n>>>>>>> develop\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 36259
+    content: 'cat README.md '
+  - delay: 1133
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[K"
+  - delay: 2761
+    content: 'cat README.md '
+  - delay: 184
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[4Pgit status"
+  - delay: 289
+    content: "\b\b\e[K"
+  - delay: 330
+    content: "\b\b\b\bmerge develop"
+  - delay: 771
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\bstat\e[K"
+  - delay: 372
+    content: "\b\b\b\bmerge develop"
+  - delay: 246
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\blog --decorate --oneline --graph --all \r"
+  - delay: 801
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Kl\r\n\e[?2004l\r"
+  - delay: 23
+    content: "\e[0;0H\e[K* 74e105f (develop) Add bullet point to email\r\n\e[K* b5c6e15 add email\r\n\e[K| * d4b1b38 (HEAD -> master) Add bullet point\r\n\e[K|/  \r\n\e[K* 562d2fb Add my name\r\n\e[K* 81afbf4 (origin/master, origin/HEAD) Create README.md\r\n\e[K\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[25;0H\e[K\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 11669
+    content: g
+  - delay: 104
+    content: i
+  - delay: 131
+    content: t
+  - delay: 166
+    content: ' '
+  - delay: 187
+    content: m
+  - delay: 121
+    content: e
+  - delay: 844
+    content: r
+  - delay: 1300
+    content: g
+  - delay: 351
+    content: e
+  - delay: 252
+    content: t
+  - delay: 134
+    content: o
+  - delay: 416
+    content: o
+  - delay: 448
+    content: l
+  - delay: 1261
+    content: ' '
+  - delay: 332
+    content: '-'
+  - delay: 655
+    content: t
+  - delay: 232
+    content: t
+  - delay: 358
+    content: o
+  - delay: 765
+    content: "\b\e[K"
+  - delay: 317
+    content: "\b\e[K"
+  - delay: 411
+    content: o
+  - delay: 153
+    content: o
+  - delay: 296
+    content: l
+  - delay: 771
+    content: '='
+  - delay: 1227
+    content: v
+  - delay: 160
+    content: i
+  - delay: 378
+    content: m
+  - delay: 685
+    content: d
+  - delay: 103
+    content: i
+  - delay: 186
+    content: f
+  - delay: 130
+    content: f
+  - delay: 182
+    content: "\r\n\e[?2004l\r"
+  - delay: 34
+    content: "usage: git mergetool [--tool=tool] [--tool-help] [-y|--no-prompt|--prompt] [-g|--gui|--no-gui] [-O<orderfile>] [file to merge] ...\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 1454
+    content: git mergetool -tool=vimdiff
+  - delay: 1605
+    content: "\b"
+  - delay: 174
+    content: "\b"
+  - delay: 152
+    content: "\b"
+  - delay: 148
+    content: "\b"
+  - delay: 169
+    content: "\b"
+  - delay: 166
+    content: "\b"
+  - delay: 208
+    content: "\b"
+  - delay: 172
+    content: "\b"
+  - delay: 201
+    content: "\b"
+  - delay: 176
+    content: "\b"
+  - delay: 159
+    content: "\b"
+  - delay: 195
+    content: "\b"
+  - delay: 329
+    content: "\b"
+  - delay: 721
+    content: "\e[C-tool=vimdiff\b\b\b\b\b\b\b\b\b\b\b\b\b"
+  - delay: 256
+    content: "\r\n\e[?2004l\r"
+  - delay: 41
+    content: "Merging:\r\nREADME.md\r\n\r\n"
+  - delay: 22
+    content: "Normal merge conflict for 'README.md':\r\n  {local}: modified file\r\n  {remote}: modified file\r\n"
+  - delay: 28
+    content: "4 files to edit\r\n"
+  - delay: 53
+    content: "\e[?1006;1000h\e[?1002h\e[?1049h\e[22;0;0t\e[>4;2m\e[?1h\e=\e[?2004h\e[?1004h\e[1;25r\e[?12h\e[?12l\e[22;2t\e[22;1t\e[27m\e[23m\e[29m\e[m\e[H\e[2J\e[?25l\e[25;1H\"./README_LOCAL_151.md\" 5L, 48B"
+  - delay: 21
+    content: "\e[25;1H\e[K\e[25;1H\"./README_BASE_151.md\" 5L, 46B"
+  - delay: 20
+    content: "\e[25;11HREMOTE_151.md\" \e[25;26H\e[K\e[25;26H6L, 72B"
+  - delay: 21
+    content: "\r\"README.md\" \e[25;13H\e[K\e[25;13H10L, 124B"
+  - delay: 19
+    content: "\e[2;1H▽\e[6n\e[2;1H  \e[3;1H\ePzz\e\\\e[0%m\e[6n\e[3;1H           \e[1;1H\e[>c\e]10;?\a\e]11;?\a\e[1;1H\e[34m\e[47m  \e[m\e[35m# \e[m\e[35mGLSO0215 LAB\e[m\e[10C\e[7m|\e[m\r\n\e[34m\e[47m  \e[m                        \e[7m|\e[m\r\n\e[34m\e[47m  \e[m\e[35m## \e[m\e[35mLab 5 Branch\e[m         \e[7m|\e[m\r\n\e[34m\e[47m  \e[m\e[24C\e[7m|\e[m\r\n\e[34m\e[47m  \e[m\e[1m\e[33m\e[41m*\e[m\e[1m\e[41m JINHYOK CHOI\e[m\e[45m          \e[m\e[7m|\e[6;27H|\e[7;27H|\e[8;27H|\e[9;27H|\e[10;27H|\e[11;27H|\e[m\e[6;1H\e[34m\e[47m  \r\n  \r\n  \r\n  \r\n  \e[m\e[6;3H\e[1m\e[34m\e[46m------------------------\e[7;3H------------------------\e[8;3H------------------------\e[9;3H------------------------\e[10;3H------------------------\e[m\r\n\e[1m\e[34m~                         \e[m\r\n\e[7m<OCAL_151.md 1,1       All \e[m\e[1;28H\e[34m\e[47m  \e[m\e[35m# \e[m\e[35mGLSO0215 LAB\e[m\e[10C\e[7m|\e[m\e[2;28H\e[34m\e[47m  \e[m                        \e[7m|\e[m\e[3;28H\e[34m\e[47m  \e[m\e[35m## \e[m\e[35mLab 5 Branch\e[m         \e[7m|\e[m\e[4;28H\e[34m\e[47m  \e[m\e[24C\e[7m|\e[m\e[5;28H\e[34m\e[47m  \e[m\e[1m\e[41mJINHYOK CHOI\e[m\e[45m            \e[m\e[7m|\e[6;54H|\e[7;54H|\e[8;54H|\e[9;54H|\e[10;54H|\e[11;54H|\e[m\e[6;28H\e[34m\e[47m  \e[7;28H  \e[8;28H  \e[9;28H  \e[10;28H  \e[m\e[6;30H\e[1m\e[34m\e[46m------------------------\e[7;30H------------------------\e[8;30H------------------------\e[9;30H------------------------\e[10;30H------------------------\e[m\e[11;28H\e[1m\e[34m~                         \e[m\e[12;28H\e[7m<BASE_151.md 1,1       All \e[m\e[1;55H\e[34m\e[47m  \e[m\e[35m# \e[m\e[35mGLSO0215 LAB\e[m\e[2;55H\e[34m\e[47m  \e[m\e[2;57H\e[K\e[3;55H\e[34m\e[47m  \e[m\e[35m## \e[m\e[35mLab 5 Branch\e[m\e[3;72H\e[K\e[4;55H\e[34m\e[47m  \e[5;55H  \e[m\e[1m\e[41mJINHYOK CHOI\e[m\e[45m            \e[m\e[6;55H\e[34m\e[47m  \e[m\e[33m\e[45m*\e[m\e[45m \e[m\e[1m\e[41mdaniel0406070@gmail.co\e[m\e[7;55H\e[34m\e[47m  \e[8;55H  \e[9;55H  \e[10;55H  \e[m\e[7;57H\e[1m\e[34m\e[46m------------------------\e[8;57H------------------------\e[9;57H------------------------\e[10;57H------------------------\e[m\e[11;55H\e[1m\e[34m~                         \e[m\e[12;55H\e[7m<MOTE_151.md 1,1       All\e[m\e[13;1H\e[34m\e[47m  \e[m\e[35m# \e[m\e[35mGLSO0215 LAB\e[m\r\n\e[34m\e[47m  \r\n  \e[m\e[35m## \e[m\e[35mLab 5 Branch\e[m\r\n\e[34m\e[47m  \r\n  \e[m\e[1m\e[41m<<<<<<< HEAD\e[m\e[45m                                                                  \e[m\e[18;1H\e[34m\e[47m  \e[m\e[33m\e[45m*\e[m\e[45m \e[m\e[1m\e[41mJINHYOK CHOI\e[m\e[45m                                                                \e[m\e[19;1H\e[34m\e[47m  \e[m\e[44m=======                                                                       \e[m\e[20;1H\e[34m\e[47m  \e[m\e[44mJINHYOK CHOI                                                                  \e[m\e[21;1H\e[34m\e[47m  \e[m\e[33m\e[44m*\e[m\e[44m daniel0406070@gmail.com                                                     \e[m\e[22;1H\e[34m\e[47m  \e[m\e[44m>>>>>>> develop                                                               \e[m\e[23;1H\e[1m\e[34m~                                                                               \e[m\e[24;1H\e[1m\e[7mREADME.md                                                     1,1            All\e[13;3H\e[?25h\e[?4m"
+  - delay: 45
+    content: "\eP+q436f\e\\\eP+q524742\e\\\eP+q6b75\e\\\eP+q6b64\e\\\eP+q6b72\e\\\eP+q6b6c\e\\\eP+q2332\e\\\eP+q2334\e\\\eP+q2569\e\\\eP+q2a37\e\\\eP$q q\e\\\e[?12$p\e[27m\e[23m\e[29m\e[m\e[H\e[2J\e[?25l\e[1;1H\e[1m\e[36m\e[40m  \e[m\e[1m\e[31m# \e[m\e[1m\e[35mGLSO0215 LAB\e[m\e[10C\e[7m|\e[m\r\n\e[1m\e[36m\e[40m  \e[m\e[24C\e[7m|\e[m\r\n\e[1m\e[36m\e[40m  \e[m\e[1m\e[31m## \e[m\e[1m\e[35mLab 5 Branch\e[m\e[9C\e[7m|\e[m\r\n\e[1m\e[36m\e[40m  \e[m\e[24C\e[7m|\e[m\r\n\e[1m\e[36m\e[40m  \e[m\e[1m\e[33m\e[41m*\e[m\e[1m\e[41m JINHYOK CHOI\e[m\e[45m          \e[m\e[7m|\e[6;27H|\e[7;27H|\e[8;27H|\e[9;27H|\e[10;27H|\e[11;27H|\e[m\e[6;1H\e[1m\e[36m\e[40m  \r\n  \r\n  \r\n  \r\n  \e[m\e[6;3H\e[1m\e[34m\e[46m------------------------\e[7;3H------------------------\e[8;3H------------------------\e[9;3H------------------------\e[10;3H------------------------\e[m\r\n\e[1m\e[34m~                         \e[m\r\n\e[7m<OCAL_151.md 1,1       All \e[m\e[1;28H\e[1m\e[36m\e[40m  \e[m\e[1m\e[31m# \e[m\e[1m\e[35mGLSO0215 LAB\e[m\e[10C\e[7m|\e[m\e[2;28H\e[1m\e[36m\e[40m  \e[m\e[24C\e[7m|\e[m\e[3;28H\e[1m\e[36m\e[40m  \e[m\e[1m\e[31m## \e[m\e[1m\e[35mLab 5 Branch\e[m\e[9C\e[7m|\e[m\e[4;28H\e[1m\e[36m\e[40m  \e[m\e[24C\e[7m|\e[m\e[5;28H\e[1m\e[36m\e[40m  \e[m\e[1m\e[41mJINHYOK CHOI\e[m\e[45m            \e[m\e[7m|\e[6;54H|\e[7;54H|\e[8;54H|\e[9;54H|\e[10;54H|\e[11;54H|\e[m\e[6;28H\e[1m\e[36m\e[40m  \e[7;28H  \e[8;28H  \e[9;28H  \e[10;28H  \e[m\e[6;30H\e[1m\e[34m\e[46m------------------------\e[7;30H------------------------\e[8;30H------------------------\e[9;30H------------------------\e[10;30H------------------------\e[m\e[11;28H\e[1m\e[34m~                         \e[m\e[12;28H\e[7m<BASE_151.md 1,1       All \e[m\e[1;55H\e[1m\e[36m\e[40m  \e[m\e[1m\e[31m# \e[m\e[1m\e[35mGLSO0215 LAB\e[m\e[2;55H\e[1m\e[36m\e[40m  \e[3;55H  \e[m\e[1m\e[31m## \e[m\e[1m\e[35mLab 5 Branch\e[m\e[4;55H\e[1m\e[36m\e[40m  \e[5;55H  \e[m\e[1m\e[41mJINHYOK CHOI\e[m\e[45m            \e[m\e[6;55H\e[1m\e[36m\e[40m  \e[m\e[1m\e[33m\e[45m*\e[m\e[45m \e[m\e[1m\e[41mdaniel0406070@gmail.co\e[m\e[7;55H\e[1m\e[36m\e[40m  \e[8;55H  \e[9;55H  \e[10;55H  \e[m\e[7;57H\e[1m\e[34m\e[46m------------------------\e[8;57H------------------------\e[9;57H------------------------\e[10;57H------------------------\e[m\e[11;55H\e[1m\e[34m~                         \e[m\e[12;55H\e[7m<MOTE_151.md 1,1       All\e[m\e[13;1H\e[1m\e[36m\e[40m  \e[m\e[1m\e[31m# \e[m\e[1m\e[35mGLSO0215 LAB\e[m\r\n\e[1m\e[36m\e[40m  \r\n  \e[m\e[1m\e[31m## \e[m\e[1m\e[35mLab 5 Branch\e[m\r\n\e[1m\e[36m\e[40m  \r\n  \e[m\e[1m\e[41m<<<<<<< HEAD\e[m\e[45m                                                                  \e[m\e[18;1H\e[1m\e[36m\e[40m  \e[m\e[1m\e[33m\e[45m*\e[m\e[45m \e[m\e[1m\e[41mJINHYOK CHOI\e[m\e[45m                                                                \e[m\e[19;1H\e[1m\e[36m\e[40m  \e[m\e[44m=======                                                                       \e[m\e[20;1H\e[1m\e[36m\e[40m  \e[m\e[44mJINHYOK CHOI                                                                  \e[m\e[21;1H\e[1m\e[36m\e[40m  \e[m\e[1m\e[33m\e[44m*\e[m\e[44m daniel0406070@gmail.com                                                     \e[m\e[22;1H\e[1m\e[36m\e[40m  \e[m\e[44m>>>>>>> develop                                                               \e[m\e[23;1H\e[1m\e[34m~                                                                               \e[m\e[24;1H\e[1m\e[7mREADME.md                                                     1,1            All\e[m\e[25;1H\"README.md\" 10L, 124B\e[13;3H\e[?25h"
+  - delay: 7
+    content: "\e[27m\e[23m\e[29m\e[m\e[H\e[2J\e[?25l\e[1;1H\e[96m\e[48;5;242m  \e[m\e[38;5;224m# \e[m\e[38;5;225mGLSO0215 LAB\e[m\e[10C\e[7m|\e[m\r\n\e[96m\e[48;5;242m  \e[m\e[24C\e[7m|\e[m\r\n\e[96m\e[48;5;242m  \e[m\e[38;5;224m## \e[m\e[38;5;225mLab 5 Branch\e[m\e[9C\e[7m|\e[m\r\n\e[96m\e[48;5;242m  \e[m\e[24C\e[7m|\e[m\r\n\e[96m\e[48;5;242m  \e[m\e[1m\e[93m\e[101m*\e[m\e[1m\e[101m JINHYOK CHOI\e[m\e[45m          \e[m\e[7m|\e[6;27H|\e[7;27H|\e[8;27H|\e[9;27H|\e[10;27H|\e[11;27H|\e[m\e[6;1H\e[96m\e[48;5;242m  \r\n  \r\n  \r\n  \r\n  \e[m\e[6;3H\e[94m\e[46m------------------------\e[7;3H------------------------\e[8;3H------------------------\e[9;3H------------------------\e[10;3H------------------------\e[m\r\n\e[94m~                         \e[m\r\n\e[7m<OCAL_151.md 1,1       All \e[m\e[1;28H\e[96m\e[48;5;242m  \e[m\e[38;5;224m# \e[m\e[38;5;225mGLSO0215 LAB\e[m\e[10C\e[7m|\e[m\e[2;28H\e[96m\e[48;5;242m  \e[m\e[24C\e[7m|\e[m\e[3;28H\e[96m\e[48;5;242m  \e[m\e[38;5;224m## \e[m\e[38;5;225mLab 5 Branch\e[m\e[9C\e[7m|\e[m\e[4;28H\e[96m\e[48;5;242m  \e[m\e[24C\e[7m|\e[m\e[5;28H\e[96m\e[48;5;242m  \e[m\e[1m\e[101mJINHYOK CHOI\e[m\e[45m            \e[m\e[7m|\e[6;54H|\e[7;54H|\e[8;54H|\e[9;54H|\e[10;54H|\e[11;54H|\e[m\e[6;28H\e[96m\e[48;5;242m  \e[7;28H  \e[8;28H  \e[9;28H  \e[10;28H  \e[m\e[6;30H\e[94m\e[46m------------------------\e[7;30H------------------------\e[8;30H------------------------\e[9;30H------------------------\e[10;30H------------------------\e[m\e[11;28H\e[94m~                         \e[m\e[12;28H\e[7m<BASE_151.md 1,1       All \e[m\e[1;55H\e[96m\e[48;5;242m  \e[m\e[38;5;224m# \e[m\e[38;5;225mGLSO0215 LAB\e[m\e[2;55H\e[96m\e[48;5;242m  \e[3;55H  \e[m\e[38;5;224m## \e[m\e[38;5;225mLab 5 Branch\e[m\e[4;55H\e[96m\e[48;5;242m  \e[5;55H  \e[m\e[1m\e[101mJINHYOK CHOI\e[m\e[45m            \e[m\e[6;55H\e[96m\e[48;5;242m  \e[m\e[93m\e[45m*\e[m\e[45m \e[m\e[1m\e[101mdaniel0406070@gmail.co\e[m\e[7;55H\e[96m\e[48;5;242m  \e[8;55H  \e[9;55H  \e[10;55H  \e[m\e[7;57H\e[94m\e[46m------------------------\e[8;57H------------------------\e[9;57H------------------------\e[10;57H------------------------\e[m\e[11;55H\e[94m~                         \e[m\e[12;55H\e[7m<MOTE_151.md 1,1       All\e[m\e[13;1H\e[96m\e[48;5;242m  \e[m\e[38;5;224m# \e[m\e[38;5;225mGLSO0215 LAB\e[m\r\n\e[96m\e[48;5;242m  \r\n  \e[m\e[38;5;224m## \e[m\e[38;5;225mLab 5 Branch\e[m\r\n\e[96m\e[48;5;242m  \r\n  \e[m\e[1m\e[101m<<<<<<< HEAD\e[m\e[45m                                                                  \e[m\e[18;1H\e[96m\e[48;5;242m  \e[m\e[93m\e[45m*\e[m\e[45m \e[m\e[1m\e[101mJINHYOK CHOI\e[m\e[45m                                                                \e[m\e[19;1H\e[96m\e[48;5;242m  \e[m\e[44m=======                                                                       \e[m\e[20;1H\e[96m\e[48;5;242m  \e[m\e[44mJINHYOK CHOI                                                                  \e[m\e[21;1H\e[96m\e[48;5;242m  \e[m\e[93m\e[44m*\e[m\e[44m daniel0406070@gmail.com                                                     \e[m\e[22;1H\e[96m\e[48;5;242m  \e[m\e[44m>>>>>>> develop                                                               \e[m\e[23;1H\e[94m~                                                                               \e[m\e[24;1H\e[1m\e[7mREADME.md                                                     1,1            All\e[m\e[25;1H\"README.md\" 10L, 124B\e[13;3H\eP+q6b31\e\\\eP+q6b32\e\\\eP+q6b33\e\\\eP+q6b34\e\\\e[25;70H^[\e[13;3H\e[25;70H  \e[13;3H\eP+q6b35\e\\\eP+q6b36\e\\\eP+q6b37\e\\\e[25;70H1\e[13;3H\e[25;71H+\e[13;3H\e[25;72Hr\e[13;3H\e[25;73H2\e[13;3H\e[25;74H3\e[13;3H\e[25;75H3\e[13;3H\e[25;76H4\e[13;3H\e[25;77H=\e[13;3H\e[25;78H1\e[13;3H\e[25;79HB\e[13;3H\e[25;70H          \e[13;3H\eP+q6b38\e\\\eP+q6b39\e\\\e[25;70HP\e[13;3H\e[25;71H1\e[13;3H\e[25;72H+\e[13;3H\e[25;73Hr\e[13;3H\e[25;74H2\e[13;3H\e[25;75HA\e[13;3H\e[25;76H3\e[13;3H\e[25;77H7\e[13;3H\e[25;78H=\e[13;3H\e[25;79H1\e[13;3H\e[25;70H          \e[13;3H\eP+q6b3b\e\\\e[?25h"
+  - delay: 24
+    content: "\eP+q4631\e\\\eP+q4632\e\\\e[?25l\e[25;70H^[\e[13;3H\e[25;72HP\e[13;3H\e[25;73H1\e[13;3H\e[25;74H+\e[13;3H\e[25;75Hr\e[13;3H\e[25;76H6\e[13;3H\e[25;77HB\e[13;3H\e[25;70H        \e[13;3H\eP+q2531\e\\\eP+q2638\e\\\eP+q6b62\e\\\e[25;70H^[\e[13;3H\e[25;72HP\e[13;3H\e[25;73H1\e[13;3H\e[25;74H+\e[13;3H\e[25;75Hr\e[13;3H\e[25;76H6\e[13;3H\e[25;70H       \e[13;3H\eP+q6b49\e\\\eP+q6b44\e\\\eP+q6b68\e\\\e[25;70H^[\e[13;3H\e[25;72HP\e[13;3H\e[25;70H   \e[13;3H\eP+q4037\e\\\e[?25h\eP+q6b50\e\\"
+  - delay: 10
+    content: "\eP+q6b4e\e\\\eP+q4b31\e\\\eP+q4b33\e\\\eP+q4b34\e\\\eP+q4b35\e\\\eP+q6b42\e\\\eP+q5053\e\\\e[?25l\e[25;70H^[\e[13;3H\e[25;70H  \e[13;3H\eP+q5045\e\\\e[?25h"
+  - delay: 7
+    content: "\e[?25l\e[25;70H^[\e[13;3H\e[25;72HP\e[13;3H\e[25;70H   \e[13;3H\e[?25h"
+  - delay: 3692
+    content: "\e[?25l\e[25;70H~@k\e[13;3H"
+  - delay: 5
+    content: "\e[25;70H   \e[14;3H\e[27m\e[23m\e[29m\e[m\e[H\e[2J\e[1;1H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;255;165;0m# \e[m\e[38;2;255;0;255mGLSO0215 LAB\e[m\e[10C\e[7m|\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[24C\e[7m|\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;255;165;0m## \e[m\e[38;2;255;0;255mLab 5 Branch\e[m\e[9C\e[7m|\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[24C\e[7m|\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[1m\e[38;2;255;255;96m\e[48;2;255;0;0m*\e[m\e[1m\e[48;2;255;0;0m JINHYOK CHOI\e[m\e[48;2;139;0;139m          \e[m\e[7m|\e[6;27H|\e[7;27H|\e[8;27H|\e[9;27H|\e[10;27H|\e[11;27H|\e[m\e[6;1H\e[38;2;0;255;255m\e[48;2;190;190;190m  \r\n  \r\n  \r\n  \r\n  \e[m\e[6;3H\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[7;3H------------------------\e[8;3H------------------------\e[9;3H------------------------\e[10;3H------------------------\e[m\r\n\e[38;2;0;0;255m~                         \e[m\r\n\e[7m<OCAL_151.md 2,0-1     All \e[m\e[1;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;255;165;0m# \e[m\e[38;2;255;0;255mGLSO0215 LAB\e[m\e[10C\e[7m|\e[m\e[2;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[24C\e[7m|\e[m\e[3;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;255;165;0m## \e[m\e[38;2;255;0;255mLab 5 Branch\e[m\e[9C\e[7m|\e[m\e[4;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[24C\e[7m|\e[m\e[5;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[1m\e[48;2;255;0;0mJINHYOK CHOI\e[m\e[48;2;139;0;139m            \e[m\e[7m|\e[6;54H|\e[7;54H|\e[8;54H|\e[9;54H|\e[10;54H|\e[11;54H|\e[m\e[6;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[7;28H  \e[8;28H  \e[9;28H  \e[10;28H  \e[m\e[6;30H\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[7;30H------------------------\e[8;30H------------------------\e[9;30H------------------------\e[10;30H------------------------\e[m\e[11;28H\e[38;2;0;0;255m~                         \e[m\e[12;28H\e[7m<BASE_151.md 2,0-1     All \e[m\e[1;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;255;165;0m# \e[m\e[38;2;255;0;255mGLSO0215 LAB\e[m\e[2;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[3;55H  \e[m\e[38;2;255;165;0m## \e[m\e[38;2;255;0;255mLab 5 Branch\e[m\e[4;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[5;55H  \e[m\e[1m\e[48;2;255;0;0mJINHYOK CHOI\e[m\e[48;2;139;0;139m            \e[m\e[6;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;255;255;96m\e[48;2;139;0;139m*\e[m\e[48;2;139;0;139m \e[m\e[1m\e[48;2;255;0;0mdaniel0406070@gmail.co\e[m\e[7;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[8;55H  \e[9;55H  \e[10;55H  \e[m\e[7;57H\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[8;57H------------------------\e[9;57H------------------------\e[10;57H------------------------\e[m\e[11;55H\e[38;2;0;0;255m~                         \e[m\e[12;55H\e[7m<MOTE_151.md 2,0-1     All\e[m\e[13;1H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;255;165;0m# \e[m\e[38;2;255;0;255mGLSO0215 LAB\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \r\n  \e[m\e[38;2;255;165;0m## \e[m\e[38;2;255;0;255mLab 5 Branch\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \r\n  \e[m\e[1m\e[48;2;255;0;0m<<<<<<< HEAD\e[m\e[48;2;139;0;139m                                                                  \e[m\e[18;1H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;255;255;96m\e[48;2;139;0;139m*\e[m\e[48;2;139;0;139m \e[m\e[1m\e[48;2;255;0;0mJINHYOK CHOI\e[m\e[48;2;139;0;139m                                                                \e[m\e[19;1H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[48;2;0;0;139m=======                                                                       \e[m\e[20;1H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[48;2;0;0;139mJINHYOK CHOI                                                                  \e[m\e[21;1H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;255;255;96m\e[48;2;0;0;139m*\e[m\e[48;2;0;0;139m daniel0406070@gmail.com                                                     \e[m\e[22;1H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[48;2;0;0;139m>>>>>>> develop                                                               \e[m\e[23;1H\e[38;2;0;0;255m~                                                                               \e[m\e[24;1H\e[1m\e[7mREADME.md                                                     2,0-1          All\e[m\e[25;1H\"README.md\" 10L, 124B\e[14;3H\e[?25h"
+  - delay: 466
+    content: "\e[?25l\e[25;70H~@k\e[14;3H\e[25;70H   \e[15;3H\e[12;14H\e[7m3,1  \e[22C3,1  \e[22C3,1  \e[m\e[24;63H\e[1m\e[7m3,1   \e[15;3H\e[?25h"
+  - delay: 311
+    content: "\e[?25l\e[m\e[25;70H~@k\e[15;3H\e[25;70H   \e[16;3H\e[12;14H\e[7m4,0-1\e[22C4,0-1\e[22C4,0-1\e[m\e[24;63H\e[1m\e[7m4,0-1\e[16;3H\e[?25h"
+  - delay: 232
+    content: "\e[?25l\e[m\e[25;70H~@k\e[16;3H"
+  - delay: 9
+    content: "\e[25;70H   \e[17;3H\e[12;14H\e[7m5,1  \e[22C5,1  \e[22C5,1  \e[m\e[17;3H\e[1m\e[48;2;0;139;139m<\e[m\e[1m\e[48;2;255;0;0m<<<<<< HEAD\e[m\e[48;2;139;0;139m \e[m\e[22;9H\e[48;2;0;139;139m>\e[m\e[24;63H\e[1m\e[7m5,1   \e[17;3H\e[?25h"
+  - delay: 248
+    content: "\e[?25l\e[m\e[25;70H~@k\e[17;3H\e[25;70H   \e[18;3H\e[12;68H\e[7m6\e[m\e[17;3H\e[1m\e[48;2;255;0;0m<<<<<<< HEAD\e[m\e[48;2;139;0;139m \e[m\e[22;9H\e[48;2;0;0;139m>\e[m\e[24;63H\e[1m\e[7m6,\e[18;3H\e[?25h"
+  - delay: 311
+    content: "\e[?25l\e[m\e[25;70H~@k\e[18;3H\e[25;70H   \e[19;3H\e[24;63H\e[1m\e[7m7,\e[19;3H\e[?25h"
+  - delay: 6221
+    content: "\e[?25l\e[m\e[25;70H~@k\e[19;3H\e[25;70H   \e[18;3H\e[24;63H\e[1m\e[7m6,\e[18;3H\e[?25h"
+  - delay: 412
+    content: "\e[?25l\e[m\e[25;70H~@k\e[18;3H"
+  - delay: 10
+    content: "\e[25;70H   \e[17;3H\e[12;68H\e[7m5\e[m\e[17;3H\e[1m\e[48;2;0;139;139m<\e[m\e[1m\e[48;2;255;0;0m<<<<<< HEAD\e[m\e[48;2;139;0;139m \e[m\e[22;9H\e[48;2;0;139;139m>\e[m\e[24;63H\e[1m\e[7m5,\e[17;3H\e[?25h"
+  - delay: 315
+    content: "\e[?25l\e[m\e[25;70H~@k\e[17;3H\e[25;70H   \e[16;3H\e[12;14H\e[7m4,0-1\e[22C4,0-1\e[22C4,0-1\e[m\e[17;3H\e[1m\e[48;2;255;0;0m<<<<<<< HEAD\e[m\e[48;2;139;0;139m \e[m\e[22;9H\e[48;2;0;0;139m>\e[m\e[24;63H\e[1m\e[7m4,0-1\e[16;3H\e[?25h"
+  - delay: 289
+    content: "\e[?25l\e[m\e[25;70H~@k\e[16;3H\e[25;70H   \e[15;3H\e[12;14H\e[7m3,1  \e[22C3,1  \e[22C3,1  \e[m\e[24;63H\e[1m\e[7m3,1   \e[15;3H\e[?25h"
+  - delay: 373
+    content: "\e[?25l\e[m\e[25;70H~@k\e[15;3H\e[25;70H   \e[15;4H\e[12;16H\e[7m2\e[26C2\e[26C2\e[m\e[24;65H\e[1m\e[7m2 \e[15;4H\e[?25h"
+  - delay: 501
+    content: "\e[?25l\e[m\e[25;70H~@k\e[15;4H\e[25;70H   \e[15;5H\e[12;16H\e[7m3\e[26C3\e[26C3\e[m\e[24;65H\e[1m\e[7m3 \e[15;5H\e[?25h"
+  - delay: 85
+    content: "\e[?25l\e[m\e[25;70H~@k\e[15;5H\e[25;70H   \e[15;6H\e[12;16H\e[7m4\e[26C4\e[26C4\e[m\e[24;65H\e[1m\e[7m4 \e[15;6H\e[?25h"
+  - delay: 85
+    content: "\e[?25l\e[m\e[25;70H~@k\e[15;6H\e[25;70H   \e[15;7H\e[12;16H\e[7m5\e[26C5\e[26C5\e[m\e[24;65H\e[1m\e[7m5 \e[15;7H\e[?25h"
+  - delay: 81
+    content: "\e[?25l\e[m\e[25;70H~@k\e[15;7H\e[25;70H   \e[15;8H\e[12;16H\e[7m6\e[26C6\e[26C6\e[m\e[24;65H\e[1m\e[7m6 \e[15;8H\e[?25h"
+  - delay: 83
+    content: "\e[?25l\e[m\e[25;70H~@k\e[15;8H\e[25;70H   \e[15;9H\e[12;16H\e[7m7\e[26C7\e[26C7\e[m\e[24;65H\e[1m\e[7m7 \e[15;9H\e[?25h"
+  - delay: 83
+    content: "\e[?25l\e[m\e[25;70H~@k\e[15;9H\e[25;70H   \e[15;10H\e[12;16H\e[7m8\e[26C8\e[26C8\e[m\e[24;65H\e[1m\e[7m8 \e[15;10H\e[?25h"
+  - delay: 84
+    content: "\e[?25l\e[m\e[25;70H~@k\e[15;10H\e[25;70H   \e[15;11H\e[12;16H\e[7m9\e[26C9\e[26C9\e[m\e[24;65H\e[1m\e[7m9 \e[15;11H\e[?25h"
+  - delay: 83
+    content: "\e[?25l\e[m\e[25;70H~@k\e[15;11H\e[25;70H   \e[15;12H\e[12;16H\e[7m10\e[25C10\e[25C10\e[m\e[24;65H\e[1m\e[7m10\e[15;12H\e[?25h"
+  - delay: 84
+    content: "\e[?25l\e[m\e[25;70H~@k\e[15;12H\e[25;70H   \e[15;13H\e[12;17H\e[7m1\e[26C1\e[26C1\e[m\e[24;66H\e[1m\e[7m1 \e[15;13H\e[?25h"
+  - delay: 83
+    content: "\e[?25l\e[m\e[25;70H~@k\e[15;13H\e[25;70H   \e[15;14H\e[12;17H\e[7m2\e[26C2\e[26C2\e[m\e[24;66H\e[1m\e[7m2 \e[15;14H\e[?25h"
+  - delay: 83
+    content: "\e[?25l\e[m\e[25;70H~@k\e[15;14H\e[25;70H   \e[15;15H\e[12;17H\e[7m3\e[26C3\e[26C3\e[m\e[24;66H\e[1m\e[7m3 \e[15;15H\e[?25h"
+  - delay: 84
+    content: "\e[?25l\e[m\e[25;70H~@k\e[15;15H\e[25;70H   \e[15;16H\e[12;17H\e[7m4\e[26C4\e[26C4\e[m\e[24;66H\e[1m\e[7m4 \e[15;16H\e[?25h"
+  - delay: 81
+    content: "\e[?25l\e[m\e[25;70H~@k\e[15;16H\e[25;70H   \e[15;17H\e[12;17H\e[7m5\e[26C5\e[26C5\e[m\e[24;66H\e[1m\e[7m5 \e[15;17H\e[?25h"
+  - delay: 83
+    content: "\e[?25l\e[m\e[25;70H~@k\e[15;17H\a\e[25;70H   \e[15;17H\e[?25h"
+  - delay: 523
+    content: "\e[?25l\e[25;70H~@k\e[15;17H\e[25;70H   \e[16;3H\e[12;14H\e[7m4,0-1\e[22C4,0-1\e[22C4,0-1\e[m\e[24;63H\e[1m\e[7m4,0-1\e[16;3H\e[?25h"
+  - delay: 496
+    content: "\e[?25l\e[m\e[25;70H~@k\e[16;3H\e[25;70H   \e[17;14H\e[12;14H\e[7m5,12 \e[22C5,12 \e[22C5,12 \e[m\e[24;63H\e[1m\e[7m5,12  \e[17;14H\e[?25h"
+  - delay: 82
+    content: "\e[?25l\e[m\e[25;70H~@k\e[17;14H\e[25;70H   \e[18;16H\e[12;17H\e[7m4\e[26C3\e[23C6,14\e[m\e[24;63H\e[1m\e[7m6,14 \e[18;16H\e[?25h"
+  - delay: 82
+    content: "\e[?25l\e[m\e[25;70H~@k\e[18;16H\e[25;70H   \e[19;9H\e[12;16H\e[7m7 \e[25C7 \e[25C7 \e[m\e[24;63H\e[1m\e[7m7,7  \e[19;9H\e[?25h"
+  - delay: 83
+    content: "\e[?25l\e[m\e[25;70H~@k\e[19;9H\e[25;70H   \e[20;14H\e[12;16H\e[7m12\e[25C12\e[25C12\e[m\e[24;63H\e[1m\e[7m8,12\e[20;14H\e[?25h"
+  - delay: 205
+    content: "\e[?25l\e[m\e[25;70H~@k\e[20;14H\e[25;70H   \e[21;17H\e[12;17H\e[7m5\e[26C3\e[26C5\e[m\e[24;63H\e[1m\e[7m9,15 \e[21;17H\e[?25h"
+  - delay: 628
+    content: "\e[?25l\e[m\e[25;70H~@k\e[21;17H\e[25;70H   \e[22;17H\e[24;63H\e[1m\e[7m10,15\e[22;17H\e[?25h"
+  - delay: 299
+    content: "\e[?25l\e[m\e[25;70H~@k\e[22;17H\a\e[25;70H   \e[22;17H\e[?25h"
+  - delay: 9975
+    content: "\e[?25l\e[12;16H\e[7m7 \e[25C7 \e[25C7 \e[m\e[24;63H\e[1m\e[7m7,7   \e[19;9H\e[?25h"
+  - delay: 484
+    content: "\e[?25l\e[m\e[25;70H7\e[19;9H\e[19;3H\e[38;2;211;211;211m\e[48;2;87;87;87m======\e[m\e[25;1H\e[1m-- VISUAL --\e[m\e[25;13H\e[K\e[25;70H7\e[19;9H\e[?25h"
+  - delay: 170
+    content: "\e[?25l\e[?25h"
+  - delay: 386
+    content: "\e[?25l\e[25;70H \e[20;14H\e[12;16H\e[7m12\e[25C12\e[25C12\e[m\e[19;3H\e[48;2;0;0;139m======\e[m\e[25;1H\e[K\e[24;63H\e[1m\e[7m8,12\e[20;14H\e[?25h"
+  - delay: 1168
+    content: "\e[?25l\e[12;28H<BASE_151.md 5,12      All \e[m\e[13C\e[7m5\e[24;1HREADME.md\e[m\e[1m\e[7m \e[m\b\e[7m                                                     5,12           All\e[5;41H\e[?25h"
+  - delay: 1769
+    content: "\e[?25l\e[12;16H9 \e[10C<BASE_151.md\e[m\e[1m\e[7m \e[m\b\e[7m 5,9       All\e[m\e[1m\e[7m \e[m\b\e[7m \e[m\e[1m\e[7m<MOTE_151.md 6,9       All\e[m\e[24;63H\e[7m6,9 \e[6;65H\e[?25h"
+  - delay: 596
+    content: "\e[?25l\e[12;16H13\e[25C13\e[24;65H13\e[m\e[12;70H\e[1m\e[7m13\e[6;69H\e[?25h"
+  - delay: 183
+    content: "\e[?25l\e[m\e[25;70H13\e[6;71H\e[12;17H\e[7m5\e[m\e[6;59H\e[1m\e[38;2;211;211;211m\e[48;2;87;87;87mdaniel040607\e[m\e[1m\e[48;2;255;0;0m0@gmail.co\e[m\e[24;66H\e[7m5\e[m\r\n\e[1m-- VISUAL --\e[m\e[25;70H\e[K\e[25;70H13\e[6;71H\e[12;71H\e[1m\e[7m5 \e[6;71H\e[?25h"
+  - delay: 156
+    content: "\e[?25l\e[?25h"
+  - delay: 1354
+    content: "\e[?25l\e[m\e[25;70H  \e[16;3H\e[12;14H\e[7m4,0-1\e[22C4,0-1\e[m\e[6;59H\e[1m\e[48;2;255;0;0mdaniel0406070@gmail.co\e[m\e[12;55H\e[7m<MOTE_151.md\e[m\e[1m\e[7m \e[m\b\e[7m 4,0-1     All\e[m\e[24;1H\e[1m\e[7mREADME.md                                                     4,0-1          All\e[m\e[25;1H\e[K\e[16;3H\e[?25h"
+  - delay: 1525
+    content: "\e[?25l\e[1;1H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m                        \r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[1m\e[38;2;255;255;96m\e[48;2;255;0;0m*\e[m\e[1m\e[48;2;255;0;0m JINHYOK CHOI\e[m\e[48;2;139;0;139m          \e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\r\n\e[38;2;0;0;255m~                         \e[m\r\n                          \r\n                          \r\n                          \e[9;1H\e[38;2;0;0;255m~                         \r\n~                         \r\n~                         \e[m\e[12;14H\e[7m5,15      Bot\e[m\e[1;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m                        \e[2;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[1m\e[48;2;255;0;0mJINHYOK CHOI\e[m\e[48;2;139;0;139m            \e[m\e[3;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[4;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[5;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[6;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[7;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[8;28H\e[38;2;0;0;255m~                         \e[m\e[9;28H                          \e[10;28H                          \e[11;28H                          \e[9;28H\e[38;2;0;0;255m~                         \e[10;28H~                         \e[11;28H~                         \e[m\e[12;41H\e[7m5,13      Bot\e[m\e[1;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m                        \e[2;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[1m\e[48;2;255;0;0mJINHYOK CHOI\e[m\e[48;2;139;0;139m            \e[m\e[3;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;255;255;96m\e[48;2;139;0;139m*\e[m\e[48;2;139;0;139m \e[m\e[1m\e[48;2;255;0;0mdaniel0406070@gmail.co\e[m\e[4;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[5;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[6;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[7;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[8;55H\e[38;2;0;0;255m~                         \e[m\e[9;55H                          \e[10;55H                          \e[11;55H                          \e[9;55H\e[38;2;0;0;255m~                         \e[10;55H~                         \e[11;55H~                         \e[m\e[12;68H\e[7m6,25      Bot\e[13;23r\e[m\e[13;1H\e[3M\e[1;25r\e[21;1H\e[38;2;0;0;255m~                                                                               \e[22;1H~                                                                               \e[23;1H~                                                                               \e[m\e[24;63H\e[1m\e[7m9,25  \e[9CBot\e[18;27H\e[?25h"
+  - delay: 18
+    content: "\e[?25l\e[m\e[1;3H\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[2;3H------------------------\e[m\r\n\r\n\r\n\e[38;2;0;0;255m~                         \r\n~                         \r\n~                         \r\n~ \e[m\e[12;24H\e[7mAll\e[m\e[1;30H\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[2;30H------------------------\e[m\e[5;28H\e[38;2;0;0;255m~                         \e[6;28H~                         \e[7;28H~                         \e[8;28H~ \e[m\e[12;51H\e[7mAll\e[m\e[1;57H\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[2;57H------------------------\e[3;57H------------------------\e[m\e[5;55H\e[38;2;0;0;255m~                         \e[6;55H~                         \e[7;55H~                         \e[8;55H~ \e[m\e[12;70H\e[7m1\e[13;23r\e[m\e[13;1H\e[3M\e[1;25r\e[21;1H\e[38;2;0;0;255m~                                                                               \e[22;1H~                                                                               \e[23;1H~                                                                               \e[m\e[24;63H\e[1m\e[7m10,15\e[16;17H\e[?25h"
+  - delay: 14
+    content: "\e[?25l\e[m\e[2;1H\e[38;2;0;0;255m~                         \r\n~                         \r\n~                         \r\n~ \e[m\e[12;24H\e[7mBot\e[m\e[2;28H\e[38;2;0;0;255m~                         \e[3;28H~                         \e[4;28H~                         \e[5;28H~ \e[m\e[12;51H\e[7mBot\e[m\e[2;55H\e[38;2;0;0;255m~                         \e[3;55H~                         \e[4;55H~                         \e[5;55H~ \e[13;23r\e[m\e[13;1H\e[3M\e[1;25r\e[21;1H\e[38;2;0;0;255m~                                                                               \e[22;1H~                                                                               \e[23;1H~                                                                               \e[13;17H\e[?25h"
+  - delay: 15
+    content: "\e[?25l\e[?25h"
+  - delay: 15
+    content: "\e[?25l\e[?25h"
+  - delay: 15
+    content: "\e[?25l\e[?25h"
+  - delay: 18
+    content: "\e[?25l\e[?25h"
+  - delay: 17
+    content: "\e[?25l\e[?25h"
+  - delay: 17
+    content: "\e[?25l\e[?25h"
+  - delay: 17
+    content: "\e[?25l\e[?25h"
+  - delay: 16
+    content: "\e[?25l\e[?25h"
+  - delay: 17
+    content: "\e[?25l\e[?25h"
+  - delay: 17
+    content: "\e[?25l\e[?25h"
+  - delay: 303
+    content: "\e[?25l\e[m\e[2;1H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[12;24H\e[7mAll\e[m\e[2;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[3;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[4;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[12;51H\e[7mAll\e[m\e[2;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[3;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[4;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[13;23r\e[m\e[13;1H\e[3L\e[1;25r\e[13;1H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[48;2;0;0;139m=======                                                                       \e[m\e[14;1H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[48;2;0;0;139mJINHYOK CHOI                                                                  \e[m\e[15;1H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;255;255;96m\e[48;2;0;0;139m*\e[m\e[48;2;0;0;139m daniel0406070@gmail.com                                                     \e[16;17H\e[?25h"
+  - delay: 569
+    content: "\e[?25l\e[m\e[1;3H                        \e[2;3H\e[1m\e[38;2;255;255;96m\e[48;2;255;0;0m*\e[m\e[1m\e[48;2;255;0;0m JINHYOK CHOI\e[m\e[48;2;139;0;139m          \e[m\r\n\r\n\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \r\n  \r\n  \e[m\e[5;3H\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[6;3H------------------------\e[7;3H------------------------\e[m\e[12;24H\e[7mBot\e[m\e[1;30H                        \e[2;30H\e[1m\e[48;2;255;0;0mJINHYOK CHOI\e[m\e[48;2;139;0;139m            \e[m\e[5;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[6;28H  \e[7;28H  \e[m\e[5;30H\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[6;30H------------------------\e[7;30H------------------------\e[m\e[12;51H\e[7mBot\e[m\e[1;57H\e[K\e[2;57H\e[1m\e[48;2;255;0;0mJINHYOK CHOI\e[m\e[48;2;139;0;139m            \e[m\e[3;57H\e[38;2;255;255;96m\e[48;2;139;0;139m*\e[m\e[48;2;139;0;139m \e[m\e[1m\e[48;2;255;0;0mdaniel0406070@gmail.co\e[m\e[5;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[6;55H  \e[7;55H  \e[m\e[5;57H\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[6;57H------------------------\e[7;57H------------------------\e[13;23r\e[m\e[13;1H\e[3L\e[1;25r\e[13;1H\e[38;2;0;255;255m\e[48;2;190;190;190m  \r\n  \e[m\e[1m\e[48;2;255;0;0m<<<<<<< HEAD\e[m\e[48;2;139;0;139m                                                                  \e[m\e[15;1H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;255;255;96m\e[48;2;139;0;139m*\e[m\e[48;2;139;0;139m \e[m\e[1m\e[48;2;255;0;0mJINHYOK CHOI\e[m\e[48;2;139;0;139m                                                                \e[19;17H\e[?25h"
+  - delay: 47
+    content: "\e[?25l\e[m\e[1;1H                          \r\n                          \r\n                          \r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m                        \r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[1m\e[38;2;255;255;96m\e[48;2;255;0;0m*\e[m\e[1m\e[48;2;255;0;0m JINHYOK CHOI\e[m\e[48;2;139;0;139m          \e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\r\n\e[38;2;0;0;255m~                         \e[m\e[1;1H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;255;165;0m# \e[m\e[38;2;255;0;255mGLSO0215 LAB\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \r\n  \e[m\e[38;2;255;165;0m## \e[m\e[38;2;255;0;255mLab 5 Branch\e[m\e[12;24H\e[7mAll\e[m\e[1;1H\e[27C                          \e[2;28H                          \e[3;28H                          \e[4;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m                        \e[5;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[1m\e[48;2;255;0;0mJINHYOK CHOI\e[m\e[48;2;139;0;139m            \e[m\e[6;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[7;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[8;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[9;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[10;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[11;28H\e[38;2;0;0;255m~                         \e[m\e[1;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;255;165;0m# \e[m\e[38;2;255;0;255mGLSO0215 LAB\e[m\e[2;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[3;28H  \e[m\e[38;2;255;165;0m## \e[m\e[38;2;255;0;255mLab 5 Branch\e[m\e[12;51H\e[7mAll\e[m\e[1;1H\e[54C                          \e[2;55H                          \e[3;55H                          \e[4;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m                        \e[5;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[1m\e[48;2;255;0;0mJINHYOK CHOI\e[m\e[48;2;139;0;139m            \e[m\e[6;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;255;255;96m\e[48;2;139;0;139m*\e[m\e[48;2;139;0;139m \e[m\e[1m\e[48;2;255;0;0mdaniel0406070@gmail.co\e[m\e[7;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[8;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[9;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[10;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[11;55H\e[38;2;0;0;255m~                         \e[m\e[1;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;255;165;0m# \e[m\e[38;2;255;0;255mGLSO0215 LAB\e[m\e[2;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[3;55H  \e[m\e[38;2;255;165;0m## \e[m\e[38;2;255;0;255mLab 5 Branch\e[m\e[12;78H\e[7mAll\e[13;23r\e[m\e[13;1H\e[3L\e[1;25r\e[13;1H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;255;165;0m# \e[m\e[38;2;255;0;255mGLSO0215 LAB\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \r\n  \e[m\e[38;2;255;165;0m## \e[m\e[38;2;255;0;255mLab 5 Branch\e[m\e[24;78H\e[1m\e[7mAll\e[22;17H\e[?25h"
+  - delay: 12
+    content: "\e[?25l\e[?25h"
+  - delay: 368
+    content: "\e[?25l\e[?25h"
+  - delay: 367
+    content: "\e[?25l\e[m\e[1;1H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m                        \r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[1m\e[38;2;255;255;96m\e[48;2;255;0;0m*\e[m\e[1m\e[48;2;255;0;0m JINHYOK CHOI\e[m\e[48;2;139;0;139m          \e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\r\n\e[38;2;0;0;255m~                         \e[m\r\n                          \r\n                          \r\n                          \e[9;1H\e[38;2;0;0;255m~                         \r\n~                         \r\n~                         \e[m\e[12;24H\e[7mBot\e[m\e[1;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m                        \e[2;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[1m\e[48;2;255;0;0mJINHYOK CHOI\e[m\e[48;2;139;0;139m            \e[m\e[3;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[4;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[5;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[6;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[7;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[8;28H\e[38;2;0;0;255m~                         \e[m\e[9;28H                          \e[10;28H                          \e[11;28H                          \e[9;28H\e[38;2;0;0;255m~                         \e[10;28H~                         \e[11;28H~                         \e[m\e[12;51H\e[7mBot\e[m\e[1;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m                        \e[2;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[1m\e[48;2;255;0;0mJINHYOK CHOI\e[m\e[48;2;139;0;139m            \e[m\e[3;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;255;255;96m\e[48;2;139;0;139m*\e[m\e[48;2;139;0;139m \e[m\e[1m\e[48;2;255;0;0mdaniel0406070@gmail.co\e[m\e[4;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[5;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[6;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[7;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[8;55H\e[38;2;0;0;255m~                         \e[m\e[9;55H                          \e[10;55H                          \e[11;55H                          \e[9;55H\e[38;2;0;0;255m~                         \e[10;55H~                         \e[11;55H~                         \e[m\e[12;78H\e[7mBot\e[13;23r\e[m\e[13;1H\e[3M\e[1;25r\e[21;1H\e[38;2;0;0;255m~                                                                               \e[22;1H~                                                                               \e[23;1H~                                                                               \e[m\e[24;78H\e[1m\e[7mBot\e[19;17H\e[?25h"
+  - delay: 434
+    content: "\e[?25l\e[m\e[1;1H                          \r\n                          \r\n                          \r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m                        \r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[1m\e[38;2;255;255;96m\e[48;2;255;0;0m*\e[m\e[1m\e[48;2;255;0;0m JINHYOK CHOI\e[m\e[48;2;139;0;139m          \e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\r\n\e[38;2;0;0;255m~                         \e[m\e[1;1H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;255;165;0m# \e[m\e[38;2;255;0;255mGLSO0215 LAB\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \r\n  \e[m\e[38;2;255;165;0m## \e[m\e[38;2;255;0;255mLab 5 Branch\e[m\e[12;24H\e[7mAll\e[m\e[1;1H\e[27C                          \e[2;28H                          \e[3;28H                          \e[4;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m                        \e[5;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[1m\e[48;2;255;0;0mJINHYOK CHOI\e[m\e[48;2;139;0;139m            \e[m\e[6;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[7;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[8;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[9;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[10;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[11;28H\e[38;2;0;0;255m~                         \e[m\e[1;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;255;165;0m# \e[m\e[38;2;255;0;255mGLSO0215 LAB\e[m\e[2;28H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[3;28H  \e[m\e[38;2;255;165;0m## \e[m\e[38;2;255;0;255mLab 5 Branch\e[m\e[12;51H\e[7mAll\e[m\e[1;1H\e[54C                          \e[2;55H                          \e[3;55H                          \e[4;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m                        \e[5;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[1m\e[48;2;255;0;0mJINHYOK CHOI\e[m\e[48;2;139;0;139m            \e[m\e[6;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;255;255;96m\e[48;2;139;0;139m*\e[m\e[48;2;139;0;139m \e[m\e[1m\e[48;2;255;0;0mdaniel0406070@gmail.co\e[m\e[7;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[8;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[9;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[10;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[11;55H\e[38;2;0;0;255m~                         \e[m\e[1;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;255;165;0m# \e[m\e[38;2;255;0;255mGLSO0215 LAB\e[m\e[2;55H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[3;55H  \e[m\e[38;2;255;165;0m## \e[m\e[38;2;255;0;255mLab 5 Branch\e[m\e[12;78H\e[7mAll\e[13;23r\e[m\e[13;1H\e[3L\e[1;25r\e[13;1H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;255;165;0m# \e[m\e[38;2;255;0;255mGLSO0215 LAB\e[m\r\n\e[38;2;0;255;255m\e[48;2;190;190;190m  \r\n  \e[m\e[38;2;255;165;0m## \e[m\e[38;2;255;0;255mLab 5 Branch\e[m\e[24;78H\e[1m\e[7mAll\e[22;17H\e[?25h"
+  - delay: 1596
+    content: "\e[?25l\e[m\e[25;70H~@k\e[22;17H\a\e[25;70H   \e[22;17H\e[?25h"
+  - delay: 336
+    content: "\e[?25l\e[25;70H~@k\e[22;17H\e[25;70H   \e[22;17H\e[?25h"
+  - delay: 360
+    content: "\e[?25l\e[25;70H~@k\e[22;17H\a\e[25;70H   \e[22;17H\e[?25h"
+  - delay: 789
+    content: "\e[?25l\e[25;70H~@k\e[22;17H\a\e[25;70H   \e[22;17H\e[?25h"
+  - delay: 276
+    content: "\e[?25l\e[25;70H~@k\e[22;17H\e[25;70H   \e[22;17H\e[?25h"
+  - delay: 2209
+    content: "\e[?25l\e[25;70H~@k\e[22;17H\a\e[25;70H   \e[22;17H\e[?25h"
+  - delay: 502
+    content: "\e[?25l\e[25;70H~@k\e[22;17H\a\e[25;70H   \e[22;17H\e[?25h"
+  - delay: 90573
+    content: "\e[?25l\e[25;70Hi\e[22;17H\e[25;70H \e[22;17H\r\n\r\n\r\n\e[1m-- INSERT --\e[22;17H\e[?25h"
+  - delay: 488
+    content: "\e[?25l\e[m\e[24;63H\e[1m\e[7m9,15  \e[21;17H\e[?25h"
+  - delay: 341
+    content: "\e[?25l\e[24;63H8,13 \e[20;15H\e[m\e[12;17H\e[7m3\e[53C3\e[20;15H\e[?25h"
+  - delay: 203
+    content: "\e[?25l\e[m\e[24;63H\e[1m\e[7m7,8  \e[19;10H\e[m\e[12;16H\e[7m8 \e[25C8 \e[25C8 \e[19;10H\e[?25h"
+  - delay: 191
+    content: "\e[?25l\e[m\e[24;63H\e[1m\e[7m6,15\e[18;17H\e[m\e[12;16H\e[7m15\e[25C13\e[25C15\e[18;17H\e[?25h"
+  - delay: 186
+    content: "\e[?25l\e[m\e[24;63H\e[1m\e[7m5,13 \e[17;15H\e[m\e[12;17H\e[7m3\e[50C5,13\e[17;15H\e[?25h"
+  - delay: 474
+    content: "\e[?25l\e[m\b\e[48;2;139;0;139m  \e[m\e[24;11H\e[1m\e[7m[+]\e[52C2 \e[17;14H\e[m\e[12;17H\e[7m2\e[26C2\e[26C2\e[17;14H\e[?25h"
+  - delay: 501
+    content: "\e[?25l\e[m\b\e[48;2;139;0;139m  \e[m\e[24;66H\e[1m\e[7m1 \e[17;13H\e[m\e[12;17H\e[7m1\e[26C1\e[26C1\e[17;13H\e[?25h"
+  - delay: 84
+    content: "\e[?25l\e[m\b\e[48;2;139;0;139m  \e[m\e[24;66H\e[1m\e[7m0 \e[17;12H\e[m\e[12;17H\e[7m0\e[26C0\e[26C0\e[17;12H\e[?25h"
+  - delay: 83
+    content: "\e[?25l\e[m\b\e[48;2;139;0;139m  \e[m\e[24;65H\e[1m\e[7m9  \e[17;11H\e[m\e[12;16H\e[7m9 \e[25C9 \e[25C9 \e[17;11H\e[?25h"
+  - delay: 92
+    content: "\e[?25l\e[m\b\e[48;2;139;0;139m  \e[m\b\b\b\e[1m\e[48;2;0;139;139m<\e[m\e[48;2;139;0;139m \e[m\e[22;3H\e[48;2;0;139;139m>\e[m\e[24;65H\e[1m\e[7m8 \e[17;10H\e[m\e[12;16H\e[7m8\e[26C8\e[26C8\e[17;10H\e[?25h"
+  - delay: 81
+    content: "\e[?25l\e[m\b\e[48;2;0;139;139m \e[m\e[48;2;139;0;139m \e[m\b\b\b\e[1m\e[48;2;0;139;139m<\e[m\e[48;2;139;0;139m \e[m\e[24;65H\e[1m\e[7m7 \e[17;9H\e[m\e[12;16H\e[7m7\e[26C7\e[26C7\e[17;9H\e[?25h"
+  - delay: 80
+    content: "\e[?25l\e[m\b\e[48;2;0;139;139m \e[m\e[48;2;139;0;139m \e[m\b\b\b\e[1m\e[48;2;0;139;139m<\e[m\e[48;2;139;0;139m \e[m\e[24;65H\e[1m\e[7m6 \e[17;8H\e[m\e[12;16H\e[7m6\e[26C6\e[26C6\e[17;8H\e[?25h"
+  - delay: 83
+    content: "\e[?25l\e[m\b\e[48;2;0;139;139m \e[m\e[48;2;139;0;139m \e[m\b\b\b\e[1m\e[48;2;0;139;139m<\e[m\e[48;2;139;0;139m \e[m\e[24;65H\e[1m\e[7m5 \e[17;7H\e[m\e[12;16H\e[7m5\e[26C5\e[26C5\e[17;7H\e[?25h"
+  - delay: 83
+    content: "\e[?25l\e[m\b\e[48;2;0;139;139m \e[m\e[48;2;139;0;139m \e[m\b\b\b\e[1m\e[48;2;0;139;139m<\e[m\e[48;2;139;0;139m \e[m\e[24;65H\e[1m\e[7m4 \e[17;6H\e[m\e[12;16H\e[7m4\e[26C4\e[26C4\e[17;6H\e[?25h"
+  - delay: 224
+    content: "\e[?25l\e[m\b\e[48;2;0;139;139m \e[m\e[48;2;139;0;139m \e[m\b\b\b\e[1m\e[48;2;0;139;139m<\e[m\e[48;2;139;0;139m \e[m\e[24;65H\e[1m\e[7m3 \e[17;5H\e[m\e[12;16H\e[7m3\e[26C3\e[26C3\e[17;5H\e[?25h"
+  - delay: 187
+    content: "\e[?25l\e[m\b\e[48;2;0;139;139m \e[m\e[48;2;139;0;139m \e[m\b\b\b\e[1m\e[48;2;0;139;139m<\e[m\e[48;2;139;0;139m \e[m\e[24;65H\e[1m\e[7m2 \e[17;4H\e[m\e[12;16H\e[7m2\e[26C2\e[26C2\e[17;4H\e[?25h"
+  - delay: 158
+    content: "\e[?25l\e[m\b\e[48;2;0;139;139m \e[m\e[48;2;139;0;139m \b\b \e[m\e[22;3H\e[48;2;0;0;139m>\e[m\e[24;65H\e[1m\e[7m1 \e[17;3H\e[m\e[12;16H\e[7m1\e[26C1\e[26C1\e[17;3H\e[?25h"
+  - delay: 706
+    content: "\e[?25l\e[m\e[5;5H\e[48;2;139;0;139mJINHYOK CHOI \e[m\e[10;1H\e[38;2;0;0;255m~                         \r\n~ \e[m\e[5;30H\e[48;2;139;0;139mJINHYOK CHOI \e[m\e[10;28H\e[38;2;0;0;255m~                         \e[11;28H~ \e[m\e[5;57H\e[48;2;139;0;139mJINHYOK CHOI \e[m\e[6;57H\e[1m\e[38;2;255;255;96m\e[48;2;255;0;0m*\e[m\e[1m\e[48;2;255;0;0m \e[m\e[10;55H\e[38;2;0;0;255m~                         \e[11;55H~ \e[m\e[17;3H\e[1m\e[38;2;255;255;96m\e[48;2;255;0;0m*\e[m\e[1m\e[48;2;255;0;0m \e[m\e[48;2;139;0;139mJINHYOK CHOI\e[m\e[18;3H\e[1m\e[48;2;255;0;0m=======\e[m\e[48;2;139;0;139m        \e[m\e[19;3H\e[48;2;0;0;139mJINHYOK CHOI\e[m\e[20;3H\e[38;2;255;255;96m\e[48;2;0;0;139m*\e[m\e[48;2;0;0;139m daniel0406070@gmail.com\e[21;3H>>>>>>> develop          \e[m\r\n\e[38;2;0;0;255m~                                                                               \e[m\e[24;63H\e[1m\e[7m4,\e[16;3H\e[m\e[12;14H\e[7m4\e[26C4\e[26C4\e[16;3H\e[?25h"
+  - delay: 540
+    content: "\e[?25l\e[m\e[24;63H\e[1m\e[7m5,\e[17;3H\e[m\e[12;14H\e[7m5\e[26C5\e[26C5\e[17;3H\e[?25h"
+  - delay: 205
+    content: "\e[?25l\e[m\e[24;63H\e[1m\e[7m6,\e[18;3H\e[m\e[12;68H\e[7m6\e[18;3H\e[?25h"
+  - delay: 202
+    content: "\e[?25l\e[m\e[24;63H\e[1m\e[7m7,\e[19;3H\e[?25h"
+  - delay: 735
+    content: "\e[?25l\e[24;63H8,\e[20;3H\e[?25h"
+  - delay: 448
+    content: "\e[?25l\e[m\e[9;1H\e[38;2;0;0;255m~                         \r\n~ \e[9;28H~                         \e[10;28H~ \e[9;55H~                         \e[10;55H~ \e[m\e[19;15H\e[48;2;0;0;139m* daniel0406070@gmail.com\e[20;3H>>>>>>> develop          \e[m\r\n\e[38;2;0;0;255m~                                                                               \e[m\e[24;63H\e[1m\e[7m7,13\e[19;15H\e[m\e[12;17H\e[7m3\e[26C3\e[26C3\e[19;15H\e[?25h"
+  - delay: 1605
+    content: "\e[?25l\e[m\b\e[48;2;0;0;139m* daniel0406070@gmail.com \e[m\e[24;66H\e[1m\e[7m2 \e[19;14H\e[m\e[12;17H\e[7m2\e[26C2\e[26C2\e[19;14H\e[?25h"
+  - delay: 297
+    content: "\e[?25l\e[m\b\e[48;2;0;0;139m* daniel0406070@gmail.com \e[m\e[24;66H\e[1m\e[7m1 \e[19;13H\e[m\e[12;17H\e[7m1\e[26C1\e[26C1\e[19;13H\e[?25h"
+  - delay: 147
+    content: "\e[?25l\e[m\b\e[48;2;0;0;139m* daniel0406070@gmail.com \e[m\e[24;66H\e[1m\e[7m0 \e[19;12H\e[m\e[12;17H\e[7m0\e[26C0\e[26C0\e[19;12H\e[?25h"
+  - delay: 500
+    content: "\e[?25l\e[m\b\e[48;2;0;0;139m* daniel0406070@gmail.com \e[m\e[24;65H\e[1m\e[7m9  \e[19;11H\e[m\e[12;16H\e[7m9 \e[25C9 \e[25C9 \e[19;11H\e[?25h"
+  - delay: 83
+    content: "\e[?25l\e[m\b\e[48;2;0;0;139m* daniel0406070@gmail.com \e[m\e[24;65H\e[1m\e[7m8 \e[19;10H\e[m\e[12;16H\e[7m8\e[26C8\e[26C8\e[19;10H\e[?25h"
+  - delay: 83
+    content: "\e[?25l\e[m\b\e[48;2;0;0;139m* daniel0406070@gmail.com \e[m\e[24;65H\e[1m\e[7m7 \e[19;9H\e[m\e[12;16H\e[7m7\e[26C7\e[26C7\e[19;9H\e[?25h"
+  - delay: 84
+    content: "\e[?25l\e[m\b\e[48;2;0;0;139m* daniel0406070@gmail.com \e[m\e[24;65H\e[1m\e[7m6 \e[19;8H\e[m\e[12;16H\e[7m6\e[26C6\e[26C6\e[19;8H\e[?25h"
+  - delay: 83
+    content: "\e[?25l\e[m\b\e[48;2;0;0;139m* daniel0406070@gmail.com \e[m\e[24;65H\e[1m\e[7m5 \e[19;7H\e[m\e[12;16H\e[7m5\e[26C5\e[26C5\e[19;7H\e[?25h"
+  - delay: 86
+    content: "\e[?25l\e[m\b\e[48;2;0;0;139m* daniel0406070@gmail.com \e[m\e[24;65H\e[1m\e[7m4 \e[19;6H\e[m\e[12;16H\e[7m4\e[26C4\e[26C4\e[19;6H\e[?25h"
+  - delay: 81
+    content: "\e[?25l\e[m\b\e[48;2;0;0;139m* daniel0406070@gmail.com \e[m\e[24;65H\e[1m\e[7m3 \e[19;5H\e[m\e[12;16H\e[7m3\e[26C3\e[26C3\e[19;5H\e[?25h"
+  - delay: 84
+    content: "\e[?25l\e[m\b\e[48;2;0;0;139m* daniel0406070@gmail.com \e[m\e[24;65H\e[1m\e[7m2 \e[19;4H\e[m\e[12;16H\e[7m2\e[26C2\e[26C2\e[19;4H\e[?25h"
+  - delay: 84
+    content: "\e[?25l\e[m\b\e[38;2;255;255;96m\e[48;2;0;0;139m*\e[m\e[48;2;0;0;139m daniel0406070@gmail.com \e[m\e[24;65H\e[1m\e[7m1 \e[19;3H\e[m\e[12;16H\e[7m1\e[26C1\e[26C1\e[19;3H\e[?25h"
+  - delay: 138
+    content: "\e[?25l\e[m\e[8;1H\e[38;2;0;0;255m~                         \r\n~ \e[8;28H~                         \e[9;28H~ \e[m\e[6;57H\e[38;2;255;255;96m\e[48;2;139;0;139m*\e[m\e[48;2;139;0;139m daniel0406070@gmail.co\e[m\e[8;55H\e[38;2;0;0;255m~                         \e[9;55H~ \e[m\e[18;10H\e[48;2;139;0;139m* daniel0406070@gmail.com\e[m\e[19;3H\e[48;2;0;0;139m>>>>>>> develop          \e[m\r\n\e[38;2;0;0;255m~                                                                               \e[m\e[24;63H\e[1m\e[7m6,8 \e[18;10H\e[m\e[12;16H\e[7m8\e[26C8\e[26C8\e[18;10H\e[?25h"
+  - delay: 360
+    content: "\e[?25l\e[m\b\e[48;2;139;0;139m* daniel0406070@gmail.com \e[m\e[24;65H\e[1m\e[7m7 \e[18;9H\e[m\e[12;16H\e[7m7\e[26C7\e[26C7\e[18;9H\e[?25h"
+  - delay: 503
+    content: "\e[?25l\e[m\b\e[48;2;139;0;139m* daniel0406070@gmail.com \e[m\e[24;65H\e[1m\e[7m6 \e[18;8H\e[m\e[12;16H\e[7m6\e[26C6\e[26C6\e[18;8H\e[?25h"
+  - delay: 83
+    content: "\e[?25l\e[m\b\e[48;2;139;0;139m* daniel0406070@gmail.com \e[m\e[24;65H\e[1m\e[7m5 \e[18;7H\e[m\e[12;16H\e[7m5\e[26C5\e[26C5\e[18;7H\e[?25h"
+  - delay: 82
+    content: "\e[?25l\e[m\b\e[48;2;139;0;139m* daniel0406070@gmail.com \e[m\e[24;65H\e[1m\e[7m4 \e[18;6H\e[m\e[12;16H\e[7m4\e[26C4\e[26C4\e[18;6H\e[?25h"
+  - delay: 85
+    content: "\e[?25l\e[m\b\e[48;2;139;0;139m* daniel0406070@gmail.com \e[m\e[24;65H\e[1m\e[7m3 \e[18;5H\e[m\e[12;16H\e[7m3\e[26C3\e[26C3\e[18;5H\e[?25h"
+  - delay: 83
+    content: "\e[?25l\e[m\b\e[48;2;139;0;139m* daniel0406070@gmail.com \e[m\e[24;65H\e[1m\e[7m2 \e[18;4H\e[m\e[12;16H\e[7m2\e[26C2\e[26C2\e[18;4H\e[?25h"
+  - delay: 84
+    content: "\e[?25l\e[m\b\e[38;2;255;255;96m\e[48;2;139;0;139m*\e[m\e[48;2;139;0;139m daniel0406070@gmail.com \e[m\e[24;65H\e[1m\e[7m1 \e[18;3H\e[m\e[12;16H\e[7m1\e[26C1\e[26C1\e[18;3H\e[?25h"
+  - delay: 471
+    content: "\e[?25l\e[m\e[24;63H\e[1m\e[7m7,\e[19;3H\e[?25h"
+  - delay: 212
+    content: "\a"
+  - delay: 749
+    content: "\e[?25l\e[24;65H2 \e[19;4H\e[m\e[12;16H\e[7m2\e[26C2\e[26C2\e[19;4H\e[?25h"
+  - delay: 1090
+    content: "\e[?25l\e[m\e[24;65H\e[1m\e[7m16\e[19;18H\e[m\e[12;16H\e[7m15\e[25C13\e[25C16\e[19;18H\e[?25h"
+  - delay: 292
+    content: "\e[?25l\e[m\b\e[48;2;0;0;139m \e[m\e[24;66H\e[1m\e[7m5 \e[19;17H\e[m\e[12;71H\e[7m5\e[19;17H\e[?25h"
+  - delay: 499
+    content: "\e[?25l\e[m\b\e[48;2;0;0;139m \e[m\e[24;66H\e[1m\e[7m4 \e[19;16H\e[m\e[12;17H\e[7m4\e[53C4\e[19;16H\e[?25h"
+  - delay: 86
+    content: "\e[?25l\e[m\b\e[48;2;0;0;139m \e[m\e[24;66H\e[1m\e[7m3 \e[19;15H\e[m\e[12;17H\e[7m3\e[53C3\e[19;15H\e[?25h"
+  - delay: 83
+    content: "\e[?25l\e[m\b\e[48;2;0;0;139m \e[m\e[24;66H\e[1m\e[7m2 \e[19;14H\e[m\e[12;17H\e[7m2\e[26C2\e[26C2\e[19;14H\e[?25h"
+  - delay: 83
+    content: "\e[?25l\e[m\b\e[48;2;0;0;139m \e[m\e[24;66H\e[1m\e[7m1 \e[19;13H\e[m\e[12;17H\e[7m1\e[26C1\e[26C1\e[19;13H\e[?25h"
+  - delay: 81
+    content: "\e[?25l\e[m\b\e[48;2;0;0;139m \e[m\e[24;66H\e[1m\e[7m0 \e[19;12H\e[m\e[12;17H\e[7m0\e[26C0\e[26C0\e[19;12H\e[?25h"
+  - delay: 86
+    content: "\e[?25l\e[m\b\e[48;2;0;0;139m \e[m\e[24;65H\e[1m\e[7m9  \e[19;11H\e[m\e[12;16H\e[7m9 \e[25C9 \e[25C9 \e[19;11H\e[?25h"
+  - delay: 92
+    content: "\e[?25l\e[m\e[24;65H\e[1m\e[7m8 \e[19;10H\e[m\e[12;16H\e[7m8\e[26C8\e[26C8\e[19;10H\e[?25h"
+  - delay: 79
+    content: "\e[?25l\e[m\b\e[48;2;0;0;139m \e[m\e[24;65H\e[1m\e[7m7 \e[19;9H\e[m\e[12;16H\e[7m7\e[26C7\e[26C7\e[19;9H\e[?25h"
+  - delay: 83
+    content: "\e[?25l\e[m\b\e[48;2;0;0;139m \e[m\e[24;65H\e[1m\e[7m6 \e[19;8H\e[m\e[12;16H\e[7m6\e[26C6\e[26C6\e[19;8H\e[?25h"
+  - delay: 247
+    content: "\e[?25l\e[m\b\e[48;2;0;0;139m \e[m\e[24;65H\e[1m\e[7m5 \e[19;7H\e[m\e[12;16H\e[7m5\e[26C5\e[26C5\e[19;7H\e[?25h"
+  - delay: 188
+    content: "\e[?25l\e[m\b\e[48;2;0;0;139m \e[m\e[24;65H\e[1m\e[7m4 \e[19;6H\e[m\e[12;16H\e[7m4\e[26C4\e[26C4\e[19;6H\e[?25h"
+  - delay: 152
+    content: "\e[?25l\e[m\b\e[48;2;0;0;139m \e[m\e[24;65H\e[1m\e[7m3 \e[19;5H\e[m\e[12;16H\e[7m3\e[26C3\e[26C3\e[19;5H\e[?25h"
+  - delay: 161
+    content: "\e[?25l\e[m\b\b\e[38;2;128;160;255m\e[48;2;0;0;139m>\e[m\e[48;2;0;0;139m \e[m\e[24;65H\e[1m\e[7m2 \e[19;4H\e[m\e[12;16H\e[7m2\e[26C2\e[26C2\e[19;4H\e[?25h"
+  - delay: 171
+    content: "\e[?25l\e[m\b\e[48;2;0;0;139m \e[m\e[24;65H\e[1m\e[7m1 \e[19;3H\e[m\e[12;16H\e[7m1\e[26C1\e[26C1\e[19;3H\e[?25h"
+  - delay: 332
+    content: "\e[?25l\e[m\e[7;1H\e[38;2;0;0;255m~                         \r\n~ \e[7;28H~                         \e[8;28H~ \e[7;55H~                         \e[8;55H~ \e[19;1H~                                                                               \e[m\e[24;63H\e[1m\e[7m6,26\e[18;28H\e[m\e[12;17H\e[7m5\e[26C3\e[25C26\e[18;28H\e[?25h"
+  - delay: 2418
+    content: "\e[?25l\e[m\e[7;1H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[1C\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[1C\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;0;0;255m\e[48;2;0;139;139m------------------------\e[m\e[19;1H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[48;2;0;0;139m                                                                              \e[m\e[24;63H\e[1m\e[7m7,1  \e[19;3H\e[m\e[12;17H\e[7m \e[26C \e[25C1 \e[19;3H\e[?25h"
+  - delay: 744
+    content: "\e[?25l\e[m\e[7;1H\e[38;2;0;0;255m~                         \r\n~ \e[7;28H~                         \e[8;28H~ \e[7;55H~                         \e[8;55H~ \e[19;1H~                                                                               \e[m\e[24;63H\e[1m\e[7m6,26\e[18;28H\e[m\e[12;17H\e[7m5\e[26C3\e[25C26\e[18;28H\e[?25h"
+  - delay: 1249
+    content: "\e[m\e[25;1H\e[K\e[18;27H\e[?25l\e[25;70H^[\e[18;27H"
+  - delay: 102
+    content: "\e[25;70H  \e[18;28H"
+  - delay: 7
+    content: "\e[12;71H\e[7m5\e[m\e[24;66H\e[1m\e[7m5 \e[18;27H\e[?25h"
+  - delay: 360
+    content: "\e[?25l\e[m\e[25;70H:\e[18;27H\e[25;70H\e[K\e[25;1H:\e[?25h"
+  - delay: 246
+    content: w
+  - delay: 166
+    content: q
+  - delay: 190
+    content: "\r\e[?25l\"README.md\""
+  - delay: 7
+    content: ' 6L, 74B written'
+  - delay: 5
+    content: "\e[5;16H\e[12;27H\e[7m|\e[13;27H|\e[14;27H|\e[15;27H|\e[16;27H|\e[17;27H|\e[18;27H|\e[19;27H|\e[20;27H|\e[21;27H|\e[22;27H|\e[23;27H|\e[m\e[12;1H\e[38;2;0;0;255m~                         \r\n~                         \r\n~                         \r\n~                         \r\n~                         \r\n~                         \r\n~                         \r\n~ \e[m\e[24;1H\e[1m\e[7m<OCAL_151.md]\b 5,14      All\e[m\e[12;54H\e[7m|\e[13;54H|\e[14;54H|\e[15;54H|\e[16;54H|\e[17;54H|\e[18;54H|\e[19;54H|\e[20;54H|\e[21;54H|\e[22;54H|\e[23;54H|\e[m\e[12;28H\e[38;2;0;0;255m~                         \e[13;28H~                         \e[14;28H~                         \e[15;28H~                         \e[16;28H~                         \e[17;28H~                         \e[18;28H~                         \e[19;28H~\e[20;28H~\e[21;28H~\e[22;28H~\e[23;28H~\e[m\e[24;28H\e[7m<BASE_151.md 5,13      All \e[m\e[12;55H\e[38;2;0;0;255m~                         \e[13;55H~                         \e[14;55H~                         \e[15;55H~                         \e[16;55H~                         \e[17;55H~                         \e[18;55H~                         \e[19;55H~\e[20;55H~\e[21;55H~\e[22;55H~\e[23;55H~\e[m\e[24;55H\e[7m<MOTE_151.md\e[m\e[1m\e[7m \e[m\b\e[7m 5,13      All\e[5;16H\e[?25h"
+  - delay: 1821
+    content: "\e[?25l\e[m\e[25;70H:\e[5;16H\e[25;1H\e[K\e[25;1H:\e[?25h"
+  - delay: 673
+    content: w
+  - delay: 156
+    content: q
+  - delay: 246
+    content: "\r\e[?25l\"./README_LOCAL_151.md\""
+  - delay: 11
+    content: ' 5L, 48B written'
+  - delay: 12
+    content: "\e[5;14H\e[1;27H              \e[7m|\e[m\e[2;27H   \e[11C\e[7m|\e[m\e[3;27H              \e[7m|\e[m\e[4;27H   \e[11C\e[7m|\e[m\e[5;3H\e[48;2;139;0;139mJINHYOK CHOI  \e[10C              \e[m\e[7m|\e[6;41H|\e[7;41H|\e[8;41H|\e[9;41H|\e[10;41H|\e[11;41H|\e[12;41H|\e[13;41H|\e[14;41H|\e[15;41H|\e[16;41H|\e[17;41H|\e[18;41H|\e[19;41H|\e[20;41H|\e[21;41H|\e[22;41H|\e[23;41H|\e[m\e[6;27H\e[38;2;0;0;255m\e[48;2;0;139;139m---\e[m\e[7;27H\e[38;2;0;0;255m   \e[8;27H   \e[9;27H   \e[10;27H   \e[11;27H   \e[12;27H   \e[13;27H   \e[14;27H   \e[15;27H   \e[16;27H   \e[17;27H   \e[18;27H   \e[19;27H   \e[20;27H   \e[21;27H   \e[22;27H   \e[23;27H   \e[m\r\n\e[1m\e[7m./README_BASE_151.md  5,12           All \e[m\e[1;42H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;255;165;0m# \e[m\e[38;2;255;0;255mGLSO0215 LAB\e[m\e[1;58H\e[K\e[2;42H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[2;54H\e[K\e[3;42H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;255;165;0m## \e[m\e[38;2;255;0;255mLab 5 Branch\e[m\e[3;59H\e[K\e[4;42H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[4;54H\e[K\e[5;42H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[48;2;139;0;139mJINHYOK CHOI             \e[m\e[6;42H\e[38;2;0;255;255m\e[48;2;190;190;190m  \e[m\e[38;2;255;255;96m\e[48;2;139;0;139m*\e[m\e[48;2;139;0;139m daniel0406070@gmail.com            \e[m\e[7;42H\e[38;2;0;0;255m~\e[11C   \e[8;42H~\e[11C   \e[9;42H~\e[11C   \e[10;42H~\e[11C   \e[11;42H~\e[11C   \e[12;42H~\e[11C   \e[13;42H~\e[11C   \e[14;42H~\e[11C   \e[15;42H~\e[11C   \e[16;42H~\e[11C   \e[17;42H~\e[11C   \e[18;42H~\e[11C   \e[19;42H~\e[11C   \e[20;42H~\e[11C   \e[21;42H~\e[11C   \e[22;42H~\e[11C   \e[23;42H~\e[11C   \e[m\e[24;42H\e[7m<EADME_REMOTE_151.md 5,12     \e[5;14H\e[?25h"
+  - delay: 998
+    content: "\e[?25l\e[m\e[25;70H:\e[5;14H\e[25;1H\e[K\e[25;1H:\e[?25h"
+  - delay: 239
+    content: w
+  - delay: 124
+    content: q
+  - delay: 143
+    content: "\r\e[?25l\"./README_BASE_151.md\""
+  - delay: 6
+    content: " 5L, 46B written\e[5;12H\e[1;1H\e[38;2;255;165;0m# \e[m\e[38;2;255;0;255mGLSO0215 LAB\e[m\e[1;15H\e[K\e[2;1H\e[K\e[3;1H\e[38;2;255;165;0m## \e[m\e[38;2;255;0;255mLab 5 Branch\e[m\e[3;16H\e[K\e[4;1H\e[K\e[5;1HJINHYOK CHOI\e[5;13H\e[K\e[6;1H\e[38;2;255;255;96m*\e[m daniel0406070@gmail.com\e[6;26H\e[K\e[7;41H\e[38;2;0;0;255m   \e[8;41H   \e[9;41H   \e[10;41H   \e[11;41H   \e[12;41H   \e[13;41H   \e[14;41H   \e[15;41H   \e[16;41H   \e[17;41H   \e[18;41H   \e[19;41H   \e[20;41H   \e[21;41H   \e[22;41H   \e[23;41H   \r\n~                                                                               \e[m\e[25;63H5,12\e[10CAll\e[25;63H\e[K\e[25;63H5,12\e[10CAll\e[5;12H\e[?25h"
+  - delay: 509
+    content: "\e[?25l\e[25;53H:\e[5;12H\e[25;1H\e[K\e[25;1H:\e[?25h"
+  - delay: 203
+    content: w
+  - delay: 140
+    content: q
+  - delay: 161
+    content: "\r\e[?25l\e[?1006;1000l\e[?1002l\e[?2004l\e[>4;m\"./README_REMOTE_151.md\""
+  - delay: 9
+    content: " 6L, 72B written\r\e[23;2t\e[23;1t\r\r\n\e[?1004l\e[?2004l\e[?1l\e>\e[?1049l\e[23;0;0t\e[?25h\e[>4;m"
+  - delay: 19
+    content: "\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 5714
+    content: git mergetool --tool=vimdiff
+  - delay: 703
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\e[1Ptool=vimdiff"
+  - delay: 329
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\blog --decorate --oneline --graph --all \r"
+  - delay: 403
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[28Pcat README.md \r\n\r\e[K\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 486
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[4Pgit status"
+  - delay: 718
+    content: "\r\n\e[?2004l\r"
+  - delay: 20
+    content: "On branch master\r\nYour branch is ahead of 'origin/master' by 2 commits.\r\n  (use \"git push\" to publish your local commits)\r\n\r\nAll conflicts fixed but you are still merging.\r\n  (use \"git commit\" to conclude merge)\r\n\r\nChanges to be committed:\r\n\t\e[32mmodified:   README.md\e[m\r\n\r\nUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\t\e[31mREADME.md.orig\e[m\r\n\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 35894
+    content: c
+  - delay: 181
+    content: a
+  - delay: 238
+    content: t
+  - delay: 181
+    content: ' '
+  - delay: 289
+    content: R
+  - delay: 234
+    content: "\aEADME.md"
+  - delay: 462
+    content: "\a"
+  - delay: 460
+    content: .
+  - delay: 112
+    content: 'orig '
+  - delay: 414
+    content: "\r\n\e[?2004l\r"
+  - delay: 5
+    content: "# GLSO0215 LAB\r\n\r\n## Lab 5 Branch\r\n\r\n<<<<<<< HEAD\r\n* JINHYOK CHOI\r\n=======\r\nJINHYOK CHOI\r\n* daniel0406070@gmail.com\r\n>>>>>>> develop\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 4347
+    content: c
+  - delay: 158
+    content: a
+  - delay: 286
+    content: t
+  - delay: 250
+    content: ' '
+  - delay: 364
+    content: R
+  - delay: 221
+    content: "\aEADME.md"
+  - delay: 618
+    content: "\r\n\e[?2004l\r"
+  - delay: 6
+    content: "# GLSO0215 LAB\r\n\r\n## Lab 5 Branch\r\n\r\n* JINHYOK CHOI\r\n* daniel0406070@gmail.com\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 20527
+    content: g
+  - delay: 169
+    content: i
+  - delay: 103
+    content: t
+  - delay: 187
+    content: ' '
+  - delay: 223
+    content: s
+  - delay: 442
+    content: t
+  - delay: 221
+    content: a
+  - delay: 196
+    content: t
+  - delay: 272
+    content: u
+  - delay: 128
+    content: s
+  - delay: 207
+    content: ' '
+  - delay: 176
+    content: '0'
+  - delay: 140
+    content: s
+  - delay: 351
+    content: "\b\e[K"
+  - delay: 177
+    content: "\b\e[K"
+  - delay: 205
+    content: '-'
+  - delay: 120
+    content: s
+  - delay: 157
+    content: "\r\n\e[?2004l\r"
+  - delay: 21
+    content: "\e[32mM\e[m  README.md\r\n\e[31m??\e[m README.md.orig\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 18770
+    content: g
+  - delay: 136
+    content: i
+  - delay: 125
+    content: t
+  - delay: 173
+    content: ' '
+  - delay: 216
+    content: d
+  - delay: 135
+    content: i
+  - delay: 211
+    content: i
+  - delay: 574
+    content: "\b\e[K"
+  - delay: 334
+    content: f
+  - delay: 162
+    content: f
+  - delay: 180
+    content: ' '
+  - delay: 848
+    content: '0'
+  - delay: 231
+    content: '0'
+  - delay: 299
+    content: "\b\e[K"
+  - delay: 149
+    content: "\b\e[K"
+  - delay: 391
+    content: '-'
+  - delay: 195
+    content: '-'
+  - delay: 757
+    content: s
+  - delay: 383
+    content: t
+  - delay: 793
+    content: a
+  - delay: 290
+    content: g
+  - delay: 215
+    content: e
+  - delay: 665
+    content: d
+  - delay: 181
+    content: "\r\n\e[?2004l\r"
+  - delay: 20
+    content: "\e[0;0H\e[Kdiff --git a/README.md b/README.md\r\n\e[Kindex 7364a88..df25667 100644\r\n\e[K--- a/README.md\r\n\e[K+++ b/README.md\r\n\e[K@@ -3,3 +3,4 @@\r\n\e[K ## Lab 5 Branch\r\n\e[K \r\n\e[K * JINHYOK CHOI\r\n\e[K+* daniel0406070@gmail.com\r\n\e[K\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[25;0H\e[K\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 12037
+    content: g
+  - delay: 100
+    content: i
+  - delay: 110
+    content: t
+  - delay: 116
+    content: ' '
+  - delay: 248
+    content: c
+  - delay: 153
+    content: o
+  - delay: 371
+    content: m
+  - delay: 179
+    content: m
+  - delay: 197
+    content: i
+  - delay: 194
+    content: t
+  - delay: 734
+    content: "\r\n\e[?2004l\r"
+  - delay: 20
+    content: "hint: Waiting for your editor to close the file... \e[?1049h\e[H\e[J\e[1;1HMerge branch 'develop'\e[3;1H# Conflicts:\e[4;1H#       README.md\e[5;1H#\e[6;1H# It looks like you may be committing a merge.\e[7;1H# If this is not correct, please run\e[8;1H#       git update-ref -d MERGE_HEAD\e[9;1H# and try again.\e[12;1H# Please enter the commit message for your changes. Lines starting\e[13;1H# with '#' will be ignored, and an empty message aborts the commit.\e[14;1H#\e[15;1H# On branch master\e[16;1H# Your branch is ahead of 'origin/master' by 2 commits.\e[17;1H#   (use \"git push\" to publish your local commits)\e[18;1H#\e[19;1H# All conflicts fixed but you are still merging.\e[20;1H#\e[21;1H# Changes to be committed:\e[22;1H#       modified:   README.md\e[23;1H#\e[24;1H# Untracked files:\e[1;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 1/26 3%\e[1;1H"
+  - delay: 5821
+    content: "\e[2;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 2/26 7%\e[2;1H"
+  - delay: 447
+    content: "\e[3;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 3/26 11%\e[3;1H"
+  - delay: 490
+    content: "\e[2;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 2/26 7%\e[2;1H"
+  - delay: 248
+    content: "\e[1;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 1/26 3%\e[1;1H"
+  - delay: 250
+    content: "\e[1;2H"
+  - delay: 374
+    content: "\e[1;3H"
+  - delay: 501
+    content: "\e[1;4H"
+  - delay: 84
+    content: "\e[1;5H"
+  - delay: 86
+    content: "\e[1;6H"
+  - delay: 83
+    content: "\e[1;7H"
+  - delay: 75
+    content: "\e[1;8H"
+  - delay: 92
+    content: "\e[1;9H"
+  - delay: 83
+    content: "\e[1;10H"
+  - delay: 84
+    content: "\e[1;11H"
+  - delay: 83
+    content: "\e[1;12H"
+  - delay: 83
+    content: "\e[1;13H"
+  - delay: 85
+    content: "\e[1;14H"
+  - delay: 84
+    content: "\e[1;15H"
+  - delay: 84
+    content: "\e[1;16H"
+  - delay: 83
+    content: "\e[1;17H"
+  - delay: 83
+    content: "\e[1;18H"
+  - delay: 84
+    content: "\e[1;19H"
+  - delay: 84
+    content: "\e[1;20H"
+  - delay: 95
+    content: "\e[1;21H"
+  - delay: 71
+    content: "\e[1;22H"
+  - delay: 493
+    content: "\e[1;22H"
+  - delay: 292
+    content: "\e[1;22H"
+  - delay: 2917
+    content: "\e[2;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 2/26 7%\e[2;1H"
+  - delay: 878
+    content: "\e[1;22H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 1/26 3%\e[1;22H"
+  - delay: 1582
+    content: "\e[2;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 2/26 7%\e[2;1H"
+  - delay: 20
+    content: "\e[3;12H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 3/26 11%\e[3;12H"
+  - delay: 15
+    content: "\e[4;17H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 4/26 15%\e[4;17H"
+  - delay: 15
+    content: "\e[5;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 5/26 19%\e[5;1H"
+  - delay: 17
+    content: "\e[6;22H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 6/26 23%\e[6;22H"
+  - delay: 16
+    content: "\e[7;22H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 7/26 26%\e[7;22H"
+  - delay: 17
+    content: "\e[8;22H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 8/26 30%\e[8;22H"
+  - delay: 16
+    content: "\e[9;16H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 9/26 34%\e[9;16H"
+  - delay: 17
+    content: "\e[10;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 10/26 38%\e[10;1H"
+  - delay: 20
+    content: "\e[11;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 11/26 42%\e[11;1H"
+  - delay: 47
+    content: "\e[12;22H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 12/26 46%\e[12;22H"
+  - delay: 18
+    content: "\e[13;22H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 13/26 50%\e[13;22H"
+  - delay: 16
+    content: "\e[14;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 14/26 53%\e[14;1H"
+  - delay: 431
+    content: "\e[14;1H"
+  - delay: 84
+    content: "\e[14;1H"
+  - delay: 187
+    content: "\e[15;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 15/26 57%\e[15;1H"
+  - delay: 21
+    content: "\e[16;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 16/26 61%\e[16;1H"
+  - delay: 15
+    content: "\e[17;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 17/26 65%\e[17;1H"
+  - delay: 16
+    content: "\e[18;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 18/26 69%\e[18;1H"
+  - delay: 16
+    content: "\e[19;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 19/26 73%\e[19;1H"
+  - delay: 14
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 20/26 76%\e[19;1H\e[21;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 21/26 80%\e[21;1H"
+  - delay: 16
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 22/26 84%\e[21;1H\e[23;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 23/26 88%\e[23;1H"
+  - delay: 15
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 24/26 92%\e[23;1H\e[1;1H                      \e[2;1H# Conflicts:\e[3;3H      README.md\e[4;9H         \e[5;3HIt looks like you may be committing a merge.\e[6;4Hf this is not correct, please run          \e[7;3H      git update-ref -d MERGE_HEAD\e[8;3Hand try again.                    \e[9;1H                \e[11;1H# Please enter the commit message for your changes. Lines starting\e[12;3Hwith '#' will be ignored, and an empty message aborts the commit.\e[13;3H                                                                 \e[14;3HOn branch master\e[15;3HYour branch is ahead of 'origin/master' by 2 commits.\e[16;3H  (use \"git push\" to publish your local commits)     \e[17;5H                                              \e[18;3HAll conflicts fixed but you are still merging.\e[19;3H                                              \e[20;3HChanges to be committed:\e[21;3H      modified:   README.md\e[22;9H                     \e[23;3HUntracked files:\e[24;3H      README.md.orig\e[24;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 25/26 96%\e[24;1H"
+  - delay: 16
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 26/26 100%\e[24;1H\a\e[1;1H# Conflicts:\e[2;3H      README.md\e[3;9H         \e[4;3HIt looks like you may be committing a merge.\e[5;4Hf this is not correct, please run          \e[6;3H      git update-ref -d MERGE_HEAD\e[7;3Hand try again.                    \e[8;1H                \e[10;1H# Please enter the commit message for your changes. Lines starting\e[11;3Hwith '#' will be ignored, and an empty message aborts the commit.\e[12;3H                                                                 \e[13;3HOn branch master\e[14;3HYour branch is ahead of 'origin/master' by 2 commits.\e[15;3H  (use \"git push\" to publish your local commits)     \e[16;5H                                              \e[17;3HAll conflicts fixed but you are still merging.\e[18;3H                                              \e[19;3HChanges to be committed:\e[20;3H      modified:   README.md\e[21;9H                     \e[22;3HUntracked files:\e[23;3H      README.md.orig\e[24;9H              \e[24;1H"
+  - delay: 23
+    content: "\a\a\e[24;1H"
+  - delay: 11
+    content: "\a\a\e[24;1H"
+  - delay: 17
+    content: "\a\a\e[24;1H"
+  - delay: 16
+    content: "\a\a\e[24;1H"
+  - delay: 17
+    content: "\a\a\e[24;1H"
+  - delay: 18
+    content: "\a\a\e[24;1H"
+  - delay: 17
+    content: "\a\a\e[24;1H"
+  - delay: 19
+    content: "\a\a\e[24;1H"
+  - delay: 15
+    content: "\a\a\e[24;1H"
+  - delay: 16
+    content: "\a\a\e[24;1H"
+  - delay: 16
+    content: "\a\a\e[24;1H"
+  - delay: 16
+    content: "\a\a\e[24;1H"
+  - delay: 134
+    content: "\a\e[24;1H"
+  - delay: 18
+    content: "\a\e[24;1H"
+  - delay: 14
+    content: "\a\e[24;1H"
+  - delay: 17
+    content: "\a\e[24;1H"
+  - delay: 16
+    content: "\a\e[24;1H"
+  - delay: 17
+    content: "\a\e[24;1H"
+  - delay: 17
+    content: "\a\e[24;1H"
+  - delay: 17
+    content: "\a\e[24;1H\a\e[24;1H"
+  - delay: 17
+    content: "\a\a\e[24;1H"
+  - delay: 16
+    content: "\a\a\e[24;1H"
+  - delay: 17
+    content: "\a\a\e[24;1H"
+  - delay: 17
+    content: "\a\a\e[24;1H"
+  - delay: 17
+    content: "\a\a\e[24;1H"
+  - delay: 17
+    content: "\a\a\e[24;1H"
+  - delay: 16
+    content: "\a\a\e[24;1H"
+  - delay: 17
+    content: "\a\a\e[24;1H"
+  - delay: 16
+    content: "\a\a\e[24;1H"
+  - delay: 17
+    content: "\a\a\e[24;1H"
+  - delay: 17
+    content: "\a\a\e[24;1H"
+  - delay: 17
+    content: "\a\a\e[24;1H"
+  - delay: 17
+    content: "\a\a\e[24;1H"
+  - delay: 30
+    content: "\a\a\e[24;1H\a\a\e[24;1H"
+  - delay: 87
+    content: "\a\e[24;1H"
+  - delay: 12
+    content: "\a\e[24;1H"
+  - delay: 17
+    content: "\a\e[24;1H"
+  - delay: 17
+    content: "\a\e[24;1H"
+  - delay: 16
+    content: "\a\e[24;1H"
+  - delay: 19
+    content: "\a\e[24;1H"
+  - delay: 14
+    content: "\a\e[24;1H"
+  - delay: 17
+    content: "\a\e[24;1H"
+  - delay: 17
+    content: "\a\e[24;1H\a\e[24;1H"
+  - delay: 19
+    content: "\a\a\e[24;1H"
+  - delay: 17
+    content: "\a\a\e[24;1H"
+  - delay: 16
+    content: "\a\a\e[24;1H"
+  - delay: 22
+    content: "\a\a\e[24;1H"
+  - delay: 11
+    content: "\a\a\e[24;1H"
+  - delay: 18
+    content: "\a\a\e[24;1H"
+  - delay: 14
+    content: "\a\a\e[24;1H"
+  - delay: 18
+    content: "\a\a\e[24;1H"
+  - delay: 63
+    content: "\e[23;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 25/26 96%\e[23;1H"
+  - delay: 17
+    content: "\e[22;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 24/26 92%\e[22;1H"
+  - delay: 22
+    content: "\e[21;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 23/26 88%\e[21;1H"
+  - delay: 11
+    content: "\e[20;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 22/26 84%\e[20;1H"
+  - delay: 13
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 21/26 80%\e[20;1H\e[18;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 20/26 76%\e[18;1H"
+  - delay: 19
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 19/26 73%\e[18;1H\e[16;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 18/26 69%\e[16;1H"
+  - delay: 17
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 17/26 65%\e[16;1H\e[14;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 16/26 61%\e[14;1H"
+  - delay: 16
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 15/26 57%\e[14;1H\e[12;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 14/26 53%\e[12;1H"
+  - delay: 18
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 13/26 50%\e[12;1H\e[10;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 12/26 46%\e[10;1H"
+  - delay: 16
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 11/26 42%\e[10;1H\e[8;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 10/26 38%\e[8;1H"
+  - delay: 17
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 9/26 34%\e[8;1H\e[6;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 8/26 30%\e[6;1H"
+  - delay: 16
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 7/26 26%\e[6;1H\e[4;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 6/26 23%\e[4;1H"
+  - delay: 18
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 5/26 19%\e[4;1H\e[2;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 4/26 15%\e[2;1H"
+  - delay: 15
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 3/26 11%\e[2;1H\e[1;1H            \e[2;3HConflicts:     \e[3;9HREADME.md\e[4;3H                                            \e[5;4Ht looks like you may be committing a merge.\e[6;3HIf this is not correct, please run\e[7;3H      git update-ref -d MERGE_HEAD\e[8;1H# and try again.\e[10;1H                                                                  \e[11;3HPlease enter the commit message for your changes. Lines starting \e[12;3Hwith '#' will be ignored, and an empty message aborts the commit.\e[13;3H                \e[14;3HOn branch master                                     \e[15;3HYour branch is ahead of 'origin/master' by 2 commits.\e[16;5H(use \"git push\" to publish your local commits)\e[17;3H                                              \e[18;3HAll conflicts fixed but you are still merging.\e[19;3H                        \e[20;3HChanges to be committed:   \e[21;9Hmodified:   README.md\e[22;3H                \e[23;3HUntracked files:    \e[24;9HREADME.md.orig\e[1;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 2/26 7%\e[1;1H"
+  - delay: 17
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 1/26 3%\e[1;1H\a\e[1;1HMerge branch 'develop'\e[2;1H            \e[3;3HConflicts:     \e[4;9HREADME.md\e[5;3H                                            \e[6;4Ht looks like you may be committing a merge.\e[7;3HIf this is not correct, please run\e[8;3H      git update-ref -d MERGE_HEAD\e[9;1H# and try again.\e[11;1H                                                                  \e[12;3HPlease enter the commit message for your changes. Lines starting \e[13;3Hwith '#' will be ignored, and an empty message aborts the commit.\e[14;3H                \e[15;3HOn branch master                                     \e[16;3HYour branch is ahead of 'origin/master' by 2 commits.\e[17;5H(use \"git push\" to publish your local commits)\e[18;3H                                              \e[19;3HAll conflicts fixed but you are still merging.\e[20;3H                        \e[21;3HChanges to be committed:   \e[22;9Hmodified:   README.md\e[23;3H                \e[24;3HUntracked files:    \e[1;1H"
+  - delay: 15
+    content: "\a\a\e[1;1H"
+  - delay: 18
+    content: "\a\a\e[1;1H"
+  - delay: 16
+    content: "\a\a\e[1;1H"
+  - delay: 17
+    content: "\a\a\e[1;1H"
+  - delay: 16
+    content: "\a\a\e[1;1H"
+  - delay: 17
+    content: "\a\a\e[1;1H"
+  - delay: 18
+    content: "\a\a\e[1;1H"
+  - delay: 18
+    content: "\a\a\e[1;1H"
+  - delay: 15
+    content: "\a\a\e[1;1H"
+  - delay: 14
+    content: "\a\a\e[1;1H"
+  - delay: 19
+    content: "\a\a\e[1;1H"
+  - delay: 16
+    content: "\a\a\e[1;1H"
+  - delay: 20
+    content: "\a\a\e[1;1H"
+  - delay: 14
+    content: "\a\a\e[1;1H"
+  - delay: 18
+    content: "\a\a\e[1;1H"
+  - delay: 14
+    content: "\a\a\e[1;1H"
+  - delay: 16
+    content: "\a\a\e[1;1H"
+  - delay: 17
+    content: "\a\a\e[1;1H"
+  - delay: 17
+    content: "\a\a\e[1;1H"
+  - delay: 17
+    content: "\a\a\e[1;1H"
+  - delay: 21
+    content: "\a\a\e[1;1H"
+  - delay: 14
+    content: "\a\a\e[1;1H"
+  - delay: 16
+    content: "\a\a\e[1;1H"
+  - delay: 68
+    content: "\e[2;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 2/26 7%\e[2;1H"
+  - delay: 20
+    content: "\e[3;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 3/26 11%\e[3;1H"
+  - delay: 14
+    content: "\e[4;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 4/26 15%\e[4;1H"
+  - delay: 19
+    content: "\e[5;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 5/26 19%\e[5;1H"
+  - delay: 14
+    content: "\e[6;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 6/26 23%\e[6;1H"
+  - delay: 6
+    content: "\e[7;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 7/26 26%\e[7;1H"
+  - delay: 18
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 8/26 30%\e[7;1H\e[9;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 9/26 34%\e[9;1H"
+  - delay: 17
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 10/26 38%\e[9;1H\e[11;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 11/26 42%\e[11;1H"
+  - delay: 17
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 12/26 46%\e[11;1H\e[13;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 13/26 50%\e[13;1H"
+  - delay: 17
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 14/26 53%\e[13;1H\e[15;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 15/26 57%\e[15;1H"
+  - delay: 16
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 16/26 61%\e[15;1H\e[17;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 17/26 65%\e[17;1H"
+  - delay: 17
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 18/26 69%\e[17;1H\e[19;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 19/26 73%\e[19;1H"
+  - delay: 17
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 20/26 76%\e[19;1H\e[21;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 21/26 80%\e[21;1H"
+  - delay: 15
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 22/26 84%\e[21;1H\e[23;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 23/26 88%\e[23;1H"
+  - delay: 18
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 24/26 92%\e[23;1H\e[1;1H                      \e[2;1H# Conflicts:\e[3;3H      README.md\e[4;9H         \e[5;3HIt looks like you may be committing a merge.\e[6;4Hf this is not correct, please run          \e[7;3H      git update-ref -d MERGE_HEAD\e[8;3Hand try again.                    \e[9;1H                \e[11;1H# Please enter the commit message for your changes. Lines starting\e[12;3Hwith '#' will be ignored, and an empty message aborts the commit.\e[13;3H                                                                 \e[14;3HOn branch master\e[15;3HYour branch is ahead of 'origin/master' by 2 commits.\e[16;3H  (use \"git push\" to publish your local commits)     \e[17;5H                                              \e[18;3HAll conflicts fixed but you are still merging.\e[19;3H                                              \e[20;3HChanges to be committed:\e[21;3H      modified:   README.md\e[22;9H                     \e[23;3HUntracked files:\e[24;3H      README.md.orig\e[24;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 25/26 96%\e[24;1H"
+  - delay: 16
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 26/26 100%\e[24;1H\a\e[1;1H# Conflicts:\e[2;3H      README.md\e[3;9H         \e[4;3HIt looks like you may be committing a merge.\e[5;4Hf this is not correct, please run          \e[6;3H      git update-ref -d MERGE_HEAD\e[7;3Hand try again.                    \e[8;1H                \e[10;1H# Please enter the commit message for your changes. Lines starting\e[11;3Hwith '#' will be ignored, and an empty message aborts the commit.\e[12;3H                                                                 \e[13;3HOn branch master\e[14;3HYour branch is ahead of 'origin/master' by 2 commits.\e[15;3H  (use \"git push\" to publish your local commits)     \e[16;5H                                              \e[17;3HAll conflicts fixed but you are still merging.\e[18;3H                                              \e[19;3HChanges to be committed:\e[20;3H      modified:   README.md\e[21;9H                     \e[22;3HUntracked files:\e[23;3H      README.md.orig\e[24;9H              \e[24;1H"
+  - delay: 17
+    content: "\a\a\e[24;1H"
+  - delay: 16
+    content: "\a\a\e[24;1H"
+  - delay: 17
+    content: "\a\a\e[24;1H"
+  - delay: 17
+    content: "\a\a\e[24;1H"
+  - delay: 17
+    content: "\a\a\e[24;1H"
+  - delay: 18
+    content: "\a\a\e[24;1H"
+  - delay: 23
+    content: "\a\a\e[24;1H"
+  - delay: 9
+    content: "\a\a\e[24;1H"
+  - delay: 18
+    content: "\a\a\e[24;1H"
+  - delay: 17
+    content: "\a\a\e[24;1H"
+  - delay: 16
+    content: "\a\a\e[24;1H"
+  - delay: 16
+    content: "\a\a\e[24;1H"
+  - delay: 27
+    content: "\a\a\e[24;1H"
+  - delay: 5
+    content: "\a\a\e[24;1H"
+  - delay: 18
+    content: "\a\a\e[24;1H"
+  - delay: 17
+    content: "\a\a\e[24;1H"
+  - delay: 16
+    content: "\a\a\e[24;1H"
+  - delay: 17
+    content: "\a\a\e[24;1H"
+  - delay: 18
+    content: "\a\a\e[24;1H"
+  - delay: 15
+    content: "\a\a\e[24;1H"
+  - delay: 17
+    content: "\a\a\e[24;1H"
+  - delay: 16
+    content: "\a\a\e[24;1H"
+  - delay: 19
+    content: "\a\a\e[24;1H"
+  - delay: 17
+    content: "\a\a\e[24;1H"
+  - delay: 14
+    content: "\a\a\e[24;1H"
+  - delay: 17
+    content: "\a\a\e[24;1H"
+  - delay: 20
+    content: "\a\a\e[24;1H"
+  - delay: 13
+    content: "\a\a\e[24;1H"
+  - delay: 17
+    content: "\a\a\e[24;1H"
+  - delay: 73
+    content: "\a\a\e[24;1H"
+  - delay: 79
+    content: "\a\a\e[24;1H"
+  - delay: 373
+    content: "\a\e[24;1H"
+  - delay: 17
+    content: "\a\e[24;1H"
+  - delay: 16
+    content: "\a\e[24;1H"
+  - delay: 16
+    content: "\a\e[24;1H"
+  - delay: 18
+    content: "\a\e[24;1H"
+  - delay: 15
+    content: "\a\e[24;1H"
+  - delay: 17
+    content: "\a\e[24;1H"
+  - delay: 17
+    content: "\a\e[24;1H"
+  - delay: 17
+    content: "\a\e[24;1H"
+  - delay: 151
+    content: "\e[23;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 25/26 96%\e[23;1H"
+  - delay: 22
+    content: "\e[22;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 24/26 92%\e[22;1H"
+  - delay: 27
+    content: "\e[21;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 23/26 88%\e[21;1H"
+  - delay: 18
+    content: "\e[20;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 22/26 84%\e[20;1H"
+  - delay: 16
+    content: "\e[19;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 21/26 80%\e[19;1H"
+  - delay: 17
+    content: "\e[18;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 20/26 76%\e[18;1H"
+  - delay: 16
+    content: "\e[17;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 19/26 73%\e[17;1H"
+  - delay: 317
+    content: "\e[18;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 20/26 76%\e[18;1H"
+  - delay: 16
+    content: "\e[19;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 21/26 80%\e[19;1H"
+  - delay: 26
+    content: "\e[20;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 22/26 84%\e[20;1H"
+  - delay: 11
+    content: "\e[21;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 23/26 88%\e[21;1H"
+  - delay: 13
+    content: "\e[22;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 24/26 92%\e[22;1H"
+  - delay: 17
+    content: "\e[23;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 25/26 96%\e[23;1H"
+  - delay: 16
+    content: "\e[24;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 26/26 100%\e[24;1H"
+  - delay: 817
+    content: "\e[23;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 25/26 96%\e[23;1H"
+  - delay: 17
+    content: "\e[22;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 24/26 92%\e[22;1H"
+  - delay: 17
+    content: "\e[21;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 23/26 88%\e[21;1H"
+  - delay: 17
+    content: "\e[20;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 22/26 84%\e[20;1H"
+  - delay: 17
+    content: "\e[19;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 21/26 80%\e[19;1H"
+  - delay: 15
+    content: "\e[18;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 20/26 76%\e[18;1H"
+  - delay: 18
+    content: "\e[17;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 19/26 73%\e[17;1H"
+  - delay: 7
+    content: "\e[16;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 18/26 69%\e[16;1H"
+  - delay: 19
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 17/26 65%\e[16;1H\e[14;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 16/26 61%\e[14;1H"
+  - delay: 17
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 15/26 57%\e[14;1H\e[12;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 14/26 53%\e[12;1H"
+  - delay: 20
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 13/26 50%\e[12;1H\e[10;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 12/26 46%\e[10;1H"
+  - delay: 18
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 11/26 42%\e[10;1H\e[8;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 10/26 38%\e[8;1H"
+  - delay: 11
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 9/26 34%\e[8;1H\e[6;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 8/26 30%\e[6;1H"
+  - delay: 18
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 7/26 26%\e[6;1H\e[4;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 6/26 23%\e[4;1H"
+  - delay: 16
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 5/26 19%\e[4;1H\e[2;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 4/26 15%\e[2;1H"
+  - delay: 17
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 3/26 11%\e[2;1H\e[1;1H            \e[2;3HConflicts:     \e[3;9HREADME.md\e[4;3H                                            \e[5;4Ht looks like you may be committing a merge.\e[6;3HIf this is not correct, please run\e[7;3H      git update-ref -d MERGE_HEAD\e[8;1H# and try again.\e[10;1H                                                                  \e[11;3HPlease enter the commit message for your changes. Lines starting \e[12;3Hwith '#' will be ignored, and an empty message aborts the commit.\e[13;3H                \e[14;3HOn branch master                                     \e[15;3HYour branch is ahead of 'origin/master' by 2 commits.\e[16;5H(use \"git push\" to publish your local commits)\e[17;3H                                              \e[18;3HAll conflicts fixed but you are still merging.\e[19;3H                        \e[20;3HChanges to be committed:   \e[21;9Hmodified:   README.md\e[22;3H                \e[23;3HUntracked files:    \e[24;9HREADME.md.orig\e[1;1H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 2/26 7%\e[1;1H"
+  - delay: 17
+    content: "\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG 1/26 3%\e[1;1H\a\e[1;1HMerge branch 'develop'\e[2;1H            \e[3;3HConflicts:     \e[4;9HREADME.md\e[5;3H                                            \e[6;4Ht looks like you may be committing a merge.\e[7;3HIf this is not correct, please run\e[8;3H      git update-ref -d MERGE_HEAD\e[9;1H# and try again.\e[11;1H                                                                  \e[12;3HPlease enter the commit message for your changes. Lines starting \e[13;3Hwith '#' will be ignored, and an empty message aborts the commit.\e[14;3H                \e[15;3HOn branch master                                     \e[16;3HYour branch is ahead of 'origin/master' by 2 commits.\e[17;5H(use \"git push\" to publish your local commits)\e[18;3H                                              \e[19;3HAll conflicts fixed but you are still merging.\e[20;3H                        \e[21;3HChanges to be committed:   \e[22;9Hmodified:   README.md\e[23;3H                \e[24;3HUntracked files:    \e[1;1H"
+  - delay: 16
+    content: "\a\a\e[1;1H"
+  - delay: 17
+    content: "\a\a\e[1;1H"
+  - delay: 16
+    content: "\a\a\e[1;1H"
+  - delay: 17
+    content: "\a\a\e[1;1H"
+  - delay: 17
+    content: "\a\a\e[1;1H"
+  - delay: 20
+    content: "\a\a\e[1;1H"
+  - delay: 19
+    content: "\a\a\e[1;1H"
+  - delay: 15
+    content: "\a\a\e[1;1H"
+  - delay: 16
+    content: "\a\a\e[1;1H"
+  - delay: 16
+    content: "\a\a\e[1;1H"
+  - delay: 18
+    content: "\a\a\e[1;1H"
+  - delay: 17
+    content: "\a\a\e[1;1H"
+  - delay: 18
+    content: "\a\a\e[1;1H"
+  - delay: 15
+    content: "\a\a\e[1;1H"
+  - delay: 16
+    content: "\a\a\e[1;1H"
+  - delay: 12
+    content: "\a\a\e[1;1H"
+  - delay: 21
+    content: "\a\a\e[1;1H"
+  - delay: 16
+    content: "\a\a\e[1;1H"
+  - delay: 14
+    content: "\a\a\e[1;1H"
+  - delay: 21
+    content: "\a\a\e[1;1H"
+  - delay: 13
+    content: "\a\a\e[1;1H"
+  - delay: 21
+    content: "\a\a\e[1;1H"
+  - delay: 15
+    content: "\a\a\e[1;1H"
+  - delay: 15
+    content: "\a\a\e[1;1H"
+  - delay: 16
+    content: "\a\a\e[1;1H"
+  - delay: 21
+    content: "\a\a\e[1;1H"
+  - delay: 12
+    content: "\a\a\e[1;1H"
+  - delay: 18
+    content: "\a\a\e[1;1H"
+  - delay: 19
+    content: "\a\a\e[1;1H"
+  - delay: 18
+    content: "\a\a\e[1;1H"
+  - delay: 68
+    content: "\a\e[1;1H"
+  - delay: 17
+    content: "\a\e[1;1H"
+  - delay: 16
+    content: "\a\e[1;1H"
+  - delay: 16
+    content: "\a\e[1;1H"
+  - delay: 16
+    content: "\a\e[1;1H"
+  - delay: 17
+    content: "\a\e[1;1H"
+  - delay: 17
+    content: "\a\e[1;1H\a\e[1;1H"
+  - delay: 18
+    content: "\a\a\e[1;1H"
+  - delay: 16
+    content: "\a\a\e[1;1H"
+  - delay: 17
+    content: "\a\a\e[1;1H"
+  - delay: 30
+    content: "\a\a\e[1;1H\a\a\e[1;1H"
+  - delay: 18
+    content: "\a\a\e[1;1H"
+  - delay: 17
+    content: "\a\a\e[1;1H"
+  - delay: 19
+    content: "\a\a\e[1;1H"
+  - delay: 16
+    content: "\a\a\e[1;1H"
+  - delay: 16
+    content: "\a\a\e[1;1H"
+  - delay: 17
+    content: "\a\a\e[1;1H"
+  - delay: 16
+    content: "\a\a\e[1;1H"
+  - delay: 17
+    content: "\a\a\e[1;1H"
+  - delay: 16
+    content: "\a\a\e[1;1H"
+  - delay: 18
+    content: "\a\a\e[1;1H"
+  - delay: 15
+    content: "\a\a\e[1;1H"
+  - delay: 17
+    content: "\a\a\e[1;1H"
+  - delay: 17
+    content: "\a\a\e[1;1H"
+  - delay: 16
+    content: "\a\a\e[1;1H"
+  - delay: 18
+    content: "\a\a\e[1;1H"
+  - delay: 17
+    content: "\a\a\e[1;1H"
+  - delay: 16
+    content: "\a\a\e[1;1H"
+  - delay: 16
+    content: "\a\a\e[1;1H"
+  - delay: 17
+    content: "\a\a\e[1;1H"
+  - delay: 18
+    content: "\a\a\e[1;1H"
+  - delay: 15
+    content: "\a\a\e[1;1H"
+  - delay: 21
+    content: "\a\a\e[1;1H"
+  - delay: 12
+    content: "\a\a\e[1;1H"
+  - delay: 17
+    content: "\a\a\e[1;1H"
+  - delay: 214
+    content: "\e[1;1H"
+  - delay: 65
+    content: "\e[1;1H"
+  - delay: 17
+    content: "\e[1;1H"
+  - delay: 33
+    content: "\e[1;1H"
+  - delay: 16
+    content: "\e[1;1H"
+  - delay: 18
+    content: "\e[1;1H"
+  - delay: 16
+    content: "\e[1;1H"
+  - delay: 17
+    content: "\e[1;1H"
+  - delay: 33
+    content: "\e[1;1H"
+  - delay: 16
+    content: "\e[1;1H"
+  - delay: 17
+    content: "\e[1;1H"
+  - delay: 34
+    content: "\e[1;1H"
+  - delay: 33
+    content: "\e[1;1H"
+  - delay: 35
+    content: "\e[1;1H"
+  - delay: 51
+    content: "\e[1;1H"
+  - delay: 31
+    content: "\e[1;1H"
+  - delay: 402
+    content: "\e[1;1H"
+  - delay: 2967
+    content: "\e[1;22H"
+  - delay: 766
+    content: "\e[1;22H\e[25;1H\e[KI /workspace/glso0215-lab/.git/COMMIT_EDITMSG 1/26 3%\e[1;22H"
+  - delay: 441
+    content: "\e[1;23H"
+  - delay: 217
+    content: "\e[1;24H"
+  - delay: 800
+    content: "\e[1;23H\e[25;1H\e[KI /workspace/glso0215-lab/.git/COMMIT_EDITMSG [Modified] 1/26 3%\e[1;23H"
+  - delay: 861
+    content: "\e[1;24H"
+  - delay: 272
+    content: "\e[1;24H(\e[1;25H"
+  - delay: 1189
+    content: "\e[1;25HA\e[1;26H"
+  - delay: 347
+    content: "\e[1;26Hd\e[1;27H"
+  - delay: 166
+    content: "\e[1;27Hd\e[1;28H"
+  - delay: 129
+    content: "\e[1;29H"
+  - delay: 542
+    content: "\e[1;29Hb\e[1;30H"
+  - delay: 109
+    content: "\e[1;30Hu\e[1;31H"
+  - delay: 261
+    content: "\e[1;31Hl\e[1;32H"
+  - delay: 726
+    content: "\e[1;32Hl\e[1;33H"
+  - delay: 393
+    content: "\e[1;33He\e[1;34H"
+  - delay: 388
+    content: "\e[1;34Ht\e[1;35H"
+  - delay: 195
+    content: "\e[1;36H"
+  - delay: 548
+    content: "\e[1;36Hp\e[1;37H"
+  - delay: 182
+    content: "\e[1;37Ho\e[1;38H"
+  - delay: 452
+    content: "\e[1;38Hi\e[1;39H"
+  - delay: 166
+    content: "\e[1;39Hn\e[1;40H"
+  - delay: 324
+    content: "\e[1;40Ht\e[1;41H"
+  - delay: 2728
+    content: "\e[1;42H"
+  - delay: 517
+    content: "\e[1;42He\e[1;43H"
+  - delay: 256
+    content: "\e[1;43Hm\e[1;44H"
+  - delay: 241
+    content: "\e[1;44Ha\e[1;45H"
+  - delay: 207
+    content: "\e[1;45Hi\e[1;46H"
+  - delay: 119
+    content: "\e[1;46Hl\e[1;47H"
+  - delay: 227
+    content: "\e[1;48H"
+  - delay: 269
+    content: "\e[1;48Hi\e[1;49H"
+  - delay: 166
+    content: "\e[1;49Hn\e[1;50H"
+  - delay: 352
+    content: "\e[1;50Hf\e[1;51H"
+  - delay: 74
+    content: "\e[1;51Ho\e[1;52H"
+  - delay: 584
+    content: "\e[1;52H)\e[1;53H"
+  - delay: 2045
+    content: "\e[1;52H\e[25;1H\e[K- /workspace/glso0215-lab/.git/COMMIT_EDITMSG [Modified] 1/26 3%\e[1;52H"
+  - delay: 523
+    content: "\e[25;1H\e[K:"
+  - delay: 182
+    content: w
+  - delay: 148
+    content: q
+  - delay: 224
+    content: "\e[1;52H\e[1;52H\e[25;1H\e[K'/workspace/glso0215-lab/.git/COMMIT_EDITMSG' 26L, 622C\e[1;52H\e[25;1H\e[K\e[?1049l\r\e[K"
+  - delay: 26
+    content: "[master 56ff0f7] Merge branch 'develop' (Add bullet point email info)\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 29606
+    content: git commit
+  - delay: 205
+    content: "\b\b\b\b\b\bdiff --staged"
+  - delay: 235
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\e[4Pstatus -s"
+  - delay: 356
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\bcat README.md"
+  - delay: 302
+    content: '.orig '
+  - delay: 382
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[9Pgit status"
+  - delay: 308
+    content: "\b\b\b\b\b\bmergetool --tool=vimdiff"
+  - delay: 464
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\e[1Ptool=vimdiff"
+  - delay: 306
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\blog --decorate --oneline --graph --all \r"
+  - delay: 758
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Kl\r\n\e[?2004l\r"
+  - delay: 23
+    content: "\e[0;0H\e[K*   56ff0f7 (HEAD -> master) Merge branch 'develop' (Add bullet point email info\r\n\e[K)\r\n\e[K|\\  \r\n\e[K| * 74e105f (develop) Add bullet point to email\r\n\e[K| * b5c6e15 add email\r\n\e[K* | d4b1b38 Add bullet point\r\n\e[K|/  \r\n\e[K* 562d2fb Add my name\r\n\e[K* 81afbf4 (origin/master, origin/HEAD) Create README.md\r\n\e[K\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[25;0H\e[K\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 101997
+    content: g
+  - delay: 271
+    content: i
+  - delay: 85
+    content: t
+  - delay: 172
+    content: ' '
+  - delay: 1349
+    content: c
+  - delay: 215
+    content: h
+  - delay: 435
+    content: e
+  - delay: 332
+    content: c
+  - delay: 102
+    content: k
+  - delay: 315
+    content: o
+  - delay: 196
+    content: u
+  - delay: 168
+    content: t
+  - delay: 240
+    content: ' '
+  - delay: 2150
+    content: '-'
+  - delay: 135
+    content: b
+  - delay: 356
+    content: ' '
+  - delay: 789
+    content: d
+  - delay: 150
+    content: a
+  - delay: 83
+    content: 'n'
+  - delay: 122
+    content: i
+  - delay: 109
+    content: e
+  - delay: 166
+    content: l
+  - delay: 224
+    content: '0'
+  - delay: 117
+    content: '4'
+  - delay: 105
+    content: '0'
+  - delay: 173
+    content: '6'
+  - delay: 85
+    content: '0'
+  - delay: 146
+    content: '7'
+  - delay: 124
+    content: '0'
+  - delay: 647
+    content: /
+  - delay: 1475
+    content: m
+  - delay: 874
+    content: a
+  - delay: 175
+    content: s
+  - delay: 258
+    content: t
+  - delay: 213
+    content: e
+  - delay: 167
+    content: r
+  - delay: 566
+    content: "\r\n\e[?2004l\r"
+  - delay: 22
+    content: "Switched to a new branch 'daniel0406070/master'\r\n"
+  - delay: 5
+    content: "\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 7521
+    content: git checkout -b daniel0406070/master
+  - delay: 479
+    content: "\r\n\e[?2004l\r"
+  - delay: 9
+    content: "fatal: a branch named 'daniel0406070/master' already exists\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 1133
+    content: git checkout -b daniel0406070/master
+  - delay: 629
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\blog --decorate --oneline --graph --all \r"
+  - delay: 674
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Kl\r\n\e[?2004l\r"
+  - delay: 26
+    content: "\e[0;0H\e[K*   56ff0f7 (HEAD -> daniel0406070/master, master) Merge branch 'develop' (Add b\r\n\e[Kullet point email info)\r\n\e[K|\\  \r\n\e[K| * 74e105f (develop) Add bullet point to email\r\n\e[K| * b5c6e15 add email\r\n\e[K* | d4b1b38 Add bullet point\r\n\e[K|/  \r\n\e[K* 562d2fb Add my name\r\n\e[K* 81afbf4 (origin/master, origin/HEAD) Create README.md\r\n\e[K\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[K~\r\n\e[25;0H\e[K\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 1138
+    content: "git log --decorate --oneline --graph --all \r"
+  - delay: 440
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[K\r\n\r\e[K\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 1783
+    content: g
+  - delay: 94
+    content: i
+  - delay: 97
+    content: t
+  - delay: 174
+    content: ' '
+  - delay: 240
+    content: r
+  - delay: 189
+    content: e
+  - delay: 212
+    content: m
+  - delay: 153
+    content: o
+  - delay: 259
+    content: v
+  - delay: 707
+    content: "\b\e[K"
+  - delay: 172
+    content: t
+  - delay: 343
+    content: e
+  - delay: 268
+    content: ' '
+  - delay: 834
+    content: '-'
+  - delay: 164
+    content: v
+  - delay: 249
+    content: "\r\n\e[?2004l\r"
+  - delay: 11
+    content: "origin\tgit@github.com:sh0416/glso0215-lab.git (fetch)\r\norigin\tgit@github.com:sh0416/glso0215-lab.git (push)\r\n\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 2823
+    content: g
+  - delay: 137
+    content: i
+  - delay: 187
+    content: t
+  - delay: 246
+    content: ' '
+  - delay: 1101
+    content: p
+  - delay: 249
+    content: u
+  - delay: 210
+    content: s
+  - delay: 121
+    content: h
+  - delay: 187
+    content: ' '
+  - delay: 1631
+    content: o
+  - delay: 281
+    content: r
+  - delay: 219
+    content: i
+  - delay: 1080
+    content: g
+  - delay: 69
+    content: i
+  - delay: 150
+    content: 'n'
+  - delay: 215
+    content: ' '
+  - delay: 1588
+    content: d
+  - delay: 139
+    content: a
+  - delay: 101
+    content: 'n'
+  - delay: 92
+    content: i
+  - delay: 127
+    content: e
+  - delay: 377
+    content: l
+  - delay: 319
+    content: '0'
+  - delay: 178
+    content: '4'
+  - delay: 92
+    content: '0'
+  - delay: 180
+    content: '6'
+  - delay: 103
+    content: '0'
+  - delay: 148
+    content: '7'
+  - delay: 129
+    content: '0'
+  - delay: 520
+    content: /
+  - delay: 1261
+    content: m
+  - delay: 128
+    content: a
+  - delay: 208
+    content: s
+  - delay: 281
+    content: t
+  - delay: 272
+    content: e
+  - delay: 162
+    content: r
+  - delay: 198
+    content: ' '
+  - delay: 674
+    content: "\b\e[K"
+  - delay: 4205
+    content: "\r\n\e[?2004l\r"
+  - delay: 2991
+    content: "Enumerating objects: 17, done.\r\nCounting objects:   5% (1/17)\rCounting objects:  11% (2/17)\rCounting objects:  17% (3/17)\rCounting objects:  23% (4/17)\rCounting objects:  29% (5/17)\rCounting objects:  35% (6/17)\rCounting objects:  41% (7/17)\rCounting objects:  47% (8/17)\rCounting objects:  52% (9/17)\rCounting objects:  58% (10/17)\rCounting objects:  64% (11/17)\rCounting objects:  70% (12/17)\rCounting objects:  76% (13/17)\rCounting objects:  82% (14/17)\rCounting objects:  88% (15/17)\rCounting objects:  94% (16/17)\rCounting objects: 100% (17/17)\rCounting objects: 100% (17/17), done.\r\nDelta compression using up to 8 threads\r\nCompressing objects:  12% (1/8)\rCompressing objects:  25% (2/8)\rCompressing objects:  37% (3/8)\rCompressing objects:  50% (4/8)\rCompressing objects:  62% (5/8)\rCompressing objects:  75% (6/8)\rCompressing objects:  87% (7/8)\rCompressing objects: 100% (8/8)\rCompressing objects: 100% (8/8), done.\r\nWriting objects:   6% (1/15)\rWriting objects:  13% (2/15)\rWriting objects:  20% (3/15)\rWriting objects:  26% (4/15)\rWriting objects:  33% (5/15)\rWriting objects:  40% (6/15)\rWriting objects:  46% (7/15)\rWriting objects:  53% (8/15)\rWriting objects:  60% (9/15)\rWriting objects:  66% (10/15)\rWriting objects:  73% (11/15)\rWriting objects:  80% (12/15)\rWriting objects:  86% (13/15)\rWriting objects:  93% (14/15)\rWriting objects: 100% (15/15)\rWriting objects: 100% (15/15), 1.36 KiB | 278.00 KiB/s, done.\r\nTotal 15 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)\r\n"
+  - delay: 369
+    content: "remote: Resolving deltas:   0% (0/1)\e[K\rremote: Resolving deltas: 100% (1/1)\e[K\rremote: Resolving deltas: 100% (1/1), done.\e[K\r\n"
+  - delay: 35
+    content: "remote: \r\nremote: Create a pull request for 'daniel0406070/master' on GitHub by visiting:\e[K\r\nremote:      https://github.com/sh0416/glso0215-lab/pull/new/daniel0406070/master\e[K\r\nremote: \r\nTo github.com:sh0416/glso0215-lab.git\r\n * [new branch]      daniel0406070/master -> daniel0406070/master\r\n"
+  - delay: 11
+    content: "\e[?2004h2ab1a0b95ba2:/workspace/glso0215-lab# "
+  - delay: 101252
+    content: "\e[?2004l\r\r\nlogout\r\n"
